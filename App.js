@@ -11,7 +11,9 @@ export default function App() {
     if (
       newAmount > 10 ||
       newAmount.charCodeAt(0) < 48 ||
-      newAmount.charCodeAt(0) > 57
+      newAmount.charCodeAt(0) > 57 ||
+      newAmount.charCodeAt(1) < 48 ||
+      newAmount.charCodeAt(1) > 57
     ) {
       return;
     }

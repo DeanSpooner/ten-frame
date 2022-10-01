@@ -19,6 +19,7 @@ Please note: the following steps will require [Xcode](https://developer.apple.co
 
 In your terminal, cd into `ten-frame`:
 
+- `npm install`
 - `npx expo start`
 - Select the Simulator to run this in, or scan the QR code to run this app on your device (requires Expo Go app);
   <img src="assets/images/terminal.png" width="400px"></img>
@@ -54,5 +55,6 @@ In your terminal, cd into `ten-frame`:
 | 0.2.0   | 01.10.2022 | Changes to styles to prevent errors on Android; helper function implemented to only allow a number from 0 to 10 to be input, preventing special characters, preventing pasting etc. |
 | 0.2.1   | 01.10.2022 | README.md updated with project aims checklist and instructions for running locally on simulators and devices.                                                                       |
 | 0.2.2   | 01.10.2022 | README.md updated with new iPhone image.                                                                                                                                            |
+| 0.2.3   | 01.10.2022 | Helper function to prevented unwanted character in as second digit.                                                                                                                 |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
