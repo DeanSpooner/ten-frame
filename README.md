@@ -2,12 +2,12 @@
 
 Welcome to the Ten-Frame repository by Dean Spooner. The aim of this project is to provide a simple, interactible mathematical ten-frame that children can use as on an app, capable of running on both Android and iOS devices.
 
-## Project aims:
+## Project aims and future goals:
 
 - [x] Interactible ten-frame with input, working on iOS and Android;
 - [x] Ensure number input can only be between 0 and 10;
 - [x] Ensure only digits and no alphabetical or special characters can be input;
-- [ ] Testing suites implemented;
+- [x] Jest testing suites implemented;
 - [ ] Hamburger menu;
 - [ ] Game to match number of counters with an amount in a certain time;
 - [ ] Saving a high-score;
@@ -44,7 +44,9 @@ In your terminal, cd into `ten-frame`:
 
 - NPM / NPX;
 
-- Homebrew.
+- Homebrew;
+
+- Jest.
 
 ## Version history
 
@@ -56,5 +58,6 @@ In your terminal, cd into `ten-frame`:
 | 0.2.1   | 01.10.2022 | README.md updated with project aims checklist and instructions for running locally on simulators and devices.                                                                       |
 | 0.2.2   | 01.10.2022 | README.md updated with new iPhone image.                                                                                                                                            |
 | 0.2.3   | 01.10.2022 | Helper function to prevented unwanted character in as second digit.                                                                                                                 |
+| 0.3.0   | 01.10.2022 | Jest testing implemented and configured correctly. Base tests and snapshots added for App.js and Table.jsx.                                                                         |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022

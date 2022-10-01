@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#045d1a",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#fff",
+        "fontSize": 40,
+        "marginVertical": 40,
+        "textAlign": "center",
+      }
+    }
+  >
+    Ten Frame
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#fff",
+        "fontSize": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    How many counters would you like to place?
+  </Text>
+  <View
+    style={
+      {
+        "backgroundColor": "#fff",
+        "height": 40,
+        "marginVertical": 10,
+        "width": "50%",
+      }
+    }
+  >
+    <TextInput
+      contextMenuHidden={true}
+      keyboardType="number-pad"
+      maxLength={2}
+      onChangeText={[Function]}
+      returnKeyType="done"
+      styles={
+        {
+          "borderWidth": 1,
+          "fontSize": 20,
+          "height": 40,
+          "margin": 12,
+          "padding": 10,
+        }
+      }
+      value={0}
+    />
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "center",
+        "width": 166,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderColor": "#000",
+          "borderWidth": 3,
+          "height": 80,
+          "justifyContent": "center",
+          "width": 80,
+        }
+      }
+    >
+      <View
+        style=""
+      />
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderColor": "#000",
+          "borderWidth": 3,
+          "height": 80,
+          "justifyContent": "center",
+          "width": 80,
+        }
+      }
+    >
+      <View
+        style=""
+      />
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderColor": "#000",
+          "borderWidth": 3,
+          "height": 80,
+          "justifyContent": "center",
+          "width": 80,
+        }
+      }
+    >
+      <View
+        style=""
+      />
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderColor": "#000",
+          "borderWidth": 3,
+          "height": 80,
+          "justifyContent": "center",
+          "width": 80,
+        }
+      }
+    >
+      <View
+        style=""
+      />
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderColor": "#000",
+          "borderWidth": 3,
+          "height": 80,
+          "justifyContent": "center",
+          "width": 80,
+        }
+      }
+    >
+      <View
+        style=""
+      />
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderColor": "#000",
+          "borderWidth": 3,
+          "height": 80,
+          "justifyContent": "center",
+          "width": 80,
+        }
+      }
+    >
+      <View
+        style=""
+      />
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderColor": "#000",
+          "borderWidth": 3,
+          "height": 80,
+          "justifyContent": "center",
+          "width": 80,
+        }
+      }
+    >
+      <View
+        style=""
+      />
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderColor": "#000",
+          "borderWidth": 3,
+          "height": 80,
+          "justifyContent": "center",
+          "width": 80,
+        }
+      }
+    >
+      <View
+        style=""
+      />
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderColor": "#000",
+          "borderWidth": 3,
+          "height": 80,
+          "justifyContent": "center",
+          "width": 80,
+        }
+      }
+    >
+      <View
+        style=""
+      />
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderColor": "#000",
+          "borderWidth": 3,
+          "height": 80,
+          "justifyContent": "center",
+          "width": 80,
+        }
+      }
+    >
+      <View
+        style=""
+      />
+    </View>
+  </View>
+</View>
+`;
