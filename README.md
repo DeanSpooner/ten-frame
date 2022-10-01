@@ -25,9 +25,9 @@ Welcome to the Ten-Frame repository by Dean Spooner. The aim of this project is 
 
 - Xcode iOS Simulator;
 
-- NPM / NPX;
-
 - Node (v16.15.1);
+
+- NPM / NPX;
 
 - Homebrew;
 
@@ -35,7 +35,7 @@ Welcome to the Ten-Frame repository by Dean Spooner. The aim of this project is 
 
 ## Running locally:
 
-Please note: the following steps will require [Xcode](https://developer.apple.com/xcode/) and [Android Studio](https://developer.android.com/studio) installed, to run on iOS and Android simulators respectively.
+Please note: the following steps will require [Xcode](https://developer.apple.com/xcode/) and [Android Studio](https://developer.android.com/studio) installed, to run on iOS and Android simulators respectively. You will also need [Node](https://nodejs.dev/en/) installed to run npm/npx commands.
 
 In your terminal, cd into `ten-frame`:
 
@@ -71,5 +71,6 @@ Jest will now run the tests that have been added to this project.
 | 0.2.3   | 01.10.2022 | Helper function to prevented unwanted character in as second digit.                                                                                                                 |
 | 0.3.0   | 01.10.2022 | Jest testing implemented and configured correctly. Base tests and snapshots added for App.js and Table.jsx.                                                                         |
 | 0.3.1   | 01.10.2022 | README.md updated with testing steps.                                                                                                                                               |
+| 0.3.2   | 01.10.2022 | README.md tweaked to include Node note.                                                                                                                                             |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
