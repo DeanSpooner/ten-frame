@@ -76,6 +76,7 @@ Jest will now run the tests that have been added to this project.
 | 0.3.4   | 01.10.2022 | Renamed array in Table.jsx.                                                                                                                                                         |
 | 0.3.4   | 01.10.2022 | Renamed array in Table.jsx.                                                                                                                                                         |
 | 0.4.0   | 01.10.2022 | Styling updated for background and input. Screenshots updated.                                                                                                                      |
+| 0.4.1   | 01.10.2022 | Ten frame rotated to horizontal position. Counters now are a random colour each time the input number is changed.                                                                   |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
 

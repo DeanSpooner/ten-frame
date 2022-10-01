@@ -7,7 +7,7 @@ exports[`<Table /> renders correctly 1`] = `
       "flexDirection": "row",
       "flexWrap": "wrap",
       "justifyContent": "center",
-      "width": 166,
+      "width": "100%",
     }
   }
 >
@@ -18,23 +18,27 @@ exports[`<Table /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 80,
+        "height": 72,
         "justifyContent": "center",
-        "width": 80,
+        "width": 72,
       }
     }
   >
     <View
       style={
-        {
-          "backgroundColor": "#f00",
-          "borderColor": "#000",
-          "borderRadius": 50,
-          "borderWidth": 3,
-          "height": 70,
-          "overflow": "hidden",
-          "width": 70,
-        }
+        [
+          {
+            "borderColor": "#000",
+            "borderRadius": 50,
+            "borderWidth": 3,
+            "height": 65,
+            "overflow": "hidden",
+            "width": 65,
+          },
+          {
+            "backgroundColor": "red",
+          },
+        ]
       }
     />
   </View>
@@ -45,23 +49,27 @@ exports[`<Table /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 80,
+        "height": 72,
         "justifyContent": "center",
-        "width": 80,
+        "width": 72,
       }
     }
   >
     <View
       style={
-        {
-          "backgroundColor": "#f00",
-          "borderColor": "#000",
-          "borderRadius": 50,
-          "borderWidth": 3,
-          "height": 70,
-          "overflow": "hidden",
-          "width": 70,
-        }
+        [
+          {
+            "borderColor": "#000",
+            "borderRadius": 50,
+            "borderWidth": 3,
+            "height": 65,
+            "overflow": "hidden",
+            "width": 65,
+          },
+          {
+            "backgroundColor": "red",
+          },
+        ]
       }
     />
   </View>
@@ -72,23 +80,27 @@ exports[`<Table /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 80,
+        "height": 72,
         "justifyContent": "center",
-        "width": 80,
+        "width": 72,
       }
     }
   >
     <View
       style={
-        {
-          "backgroundColor": "#f00",
-          "borderColor": "#000",
-          "borderRadius": 50,
-          "borderWidth": 3,
-          "height": 70,
-          "overflow": "hidden",
-          "width": 70,
-        }
+        [
+          {
+            "borderColor": "#000",
+            "borderRadius": 50,
+            "borderWidth": 3,
+            "height": 65,
+            "overflow": "hidden",
+            "width": 65,
+          },
+          {
+            "backgroundColor": "red",
+          },
+        ]
       }
     />
   </View>
@@ -99,23 +111,27 @@ exports[`<Table /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 80,
+        "height": 72,
         "justifyContent": "center",
-        "width": 80,
+        "width": 72,
       }
     }
   >
     <View
       style={
-        {
-          "backgroundColor": "#f00",
-          "borderColor": "#000",
-          "borderRadius": 50,
-          "borderWidth": 3,
-          "height": 70,
-          "overflow": "hidden",
-          "width": 70,
-        }
+        [
+          {
+            "borderColor": "#000",
+            "borderRadius": 50,
+            "borderWidth": 3,
+            "height": 65,
+            "overflow": "hidden",
+            "width": 65,
+          },
+          {
+            "backgroundColor": "red",
+          },
+        ]
       }
     />
   </View>
@@ -126,23 +142,27 @@ exports[`<Table /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 80,
+        "height": 72,
         "justifyContent": "center",
-        "width": 80,
+        "width": 72,
       }
     }
   >
     <View
       style={
-        {
-          "backgroundColor": "#f00",
-          "borderColor": "#000",
-          "borderRadius": 50,
-          "borderWidth": 3,
-          "height": 70,
-          "overflow": "hidden",
-          "width": 70,
-        }
+        [
+          {
+            "borderColor": "#000",
+            "borderRadius": 50,
+            "borderWidth": 3,
+            "height": 65,
+            "overflow": "hidden",
+            "width": 65,
+          },
+          {
+            "backgroundColor": "red",
+          },
+        ]
       }
     />
   </View>
@@ -153,23 +173,27 @@ exports[`<Table /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 80,
+        "height": 72,
         "justifyContent": "center",
-        "width": 80,
+        "width": 72,
       }
     }
   >
     <View
       style={
-        {
-          "backgroundColor": "#f00",
-          "borderColor": "#000",
-          "borderRadius": 50,
-          "borderWidth": 3,
-          "height": 70,
-          "overflow": "hidden",
-          "width": 70,
-        }
+        [
+          {
+            "borderColor": "#000",
+            "borderRadius": 50,
+            "borderWidth": 3,
+            "height": 65,
+            "overflow": "hidden",
+            "width": 65,
+          },
+          {
+            "backgroundColor": "red",
+          },
+        ]
       }
     />
   </View>
@@ -180,23 +204,27 @@ exports[`<Table /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 80,
+        "height": 72,
         "justifyContent": "center",
-        "width": 80,
+        "width": 72,
       }
     }
   >
     <View
       style={
-        {
-          "backgroundColor": "#f00",
-          "borderColor": "#000",
-          "borderRadius": 50,
-          "borderWidth": 3,
-          "height": 70,
-          "overflow": "hidden",
-          "width": 70,
-        }
+        [
+          {
+            "borderColor": "#000",
+            "borderRadius": 50,
+            "borderWidth": 3,
+            "height": 65,
+            "overflow": "hidden",
+            "width": 65,
+          },
+          {
+            "backgroundColor": "red",
+          },
+        ]
       }
     />
   </View>
@@ -207,23 +235,27 @@ exports[`<Table /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 80,
+        "height": 72,
         "justifyContent": "center",
-        "width": 80,
+        "width": 72,
       }
     }
   >
     <View
       style={
-        {
-          "backgroundColor": "#f00",
-          "borderColor": "#000",
-          "borderRadius": 50,
-          "borderWidth": 3,
-          "height": 70,
-          "overflow": "hidden",
-          "width": 70,
-        }
+        [
+          {
+            "borderColor": "#000",
+            "borderRadius": 50,
+            "borderWidth": 3,
+            "height": 65,
+            "overflow": "hidden",
+            "width": 65,
+          },
+          {
+            "backgroundColor": "red",
+          },
+        ]
       }
     />
   </View>
@@ -234,23 +266,27 @@ exports[`<Table /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 80,
+        "height": 72,
         "justifyContent": "center",
-        "width": 80,
+        "width": 72,
       }
     }
   >
     <View
       style={
-        {
-          "backgroundColor": "#f00",
-          "borderColor": "#000",
-          "borderRadius": 50,
-          "borderWidth": 3,
-          "height": 70,
-          "overflow": "hidden",
-          "width": 70,
-        }
+        [
+          {
+            "borderColor": "#000",
+            "borderRadius": 50,
+            "borderWidth": 3,
+            "height": 65,
+            "overflow": "hidden",
+            "width": 65,
+          },
+          {
+            "backgroundColor": "red",
+          },
+        ]
       }
     />
   </View>
@@ -261,23 +297,27 @@ exports[`<Table /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 80,
+        "height": 72,
         "justifyContent": "center",
-        "width": 80,
+        "width": 72,
       }
     }
   >
     <View
       style={
-        {
-          "backgroundColor": "#f00",
-          "borderColor": "#000",
-          "borderRadius": 50,
-          "borderWidth": 3,
-          "height": 70,
-          "overflow": "hidden",
-          "width": 70,
-        }
+        [
+          {
+            "borderColor": "#000",
+            "borderRadius": 50,
+            "borderWidth": 3,
+            "height": 65,
+            "overflow": "hidden",
+            "width": 65,
+          },
+          {
+            "backgroundColor": "red",
+          },
+        ]
       }
     />
   </View>
