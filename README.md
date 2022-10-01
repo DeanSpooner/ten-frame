@@ -73,6 +73,7 @@ Jest will now run the tests that have been added to this project.
 | 0.3.1   | 01.10.2022 | README.md updated with testing steps.                                                                                                                                               |
 | 0.3.2   | 01.10.2022 | README.md tweaked to include Node note.                                                                                                                                             |
 | 0.3.3   | 01.10.2022 | Ten Frame icon added to assets and README.md.                                                                                                                                       |
+| 0.3.4   | 01.10.2022 | Renamed array in Table.jsx.                                                                                                                                                         |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
 
