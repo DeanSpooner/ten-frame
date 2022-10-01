@@ -1,4 +1,4 @@
-# Ten-Frame by [Dean Spooner](https://github.com/DeanSpooner) ➕➖✖️➗
+# Ten-Frame by [Dean Spooner](https://github.com/DeanSpooner) <img src="assets/images/tflogo.png" width="80px"></img>
 
 Welcome to the Ten-Frame repository by Dean Spooner. The aim of this project is to provide a simple, interactible mathematical ten-frame that children can use as on an app, capable of running on both Android and iOS devices.
 
@@ -50,7 +50,7 @@ In your terminal, cd into `ten-frame`:
 
 - NOTE: You may need your Android simulator running prior to selecting it in the CLI; it may need to be configured to have more storage space within its settings on Android Studio.
 
-## Running tests
+## Running tests:
 
 In your terminal, cd into `ten-frame` then run:
 
@@ -59,7 +59,7 @@ In your terminal, cd into `ten-frame` then run:
 
 Jest will now run the tests that have been added to this project.
 
-## Version history
+## Version history:
 
 | Version | Date       | Description                                                                                                                                                                         |
 | ------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -72,5 +72,8 @@ Jest will now run the tests that have been added to this project.
 | 0.3.0   | 01.10.2022 | Jest testing implemented and configured correctly. Base tests and snapshots added for App.js and Table.jsx.                                                                         |
 | 0.3.1   | 01.10.2022 | README.md updated with testing steps.                                                                                                                                               |
 | 0.3.2   | 01.10.2022 | README.md tweaked to include Node note.                                                                                                                                             |
+| 0.3.3   | 01.10.2022 | Ten Frame icon added to assets and README.md.                                                                                                                                       |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
+
+<img src="assets/images/tflogo.png" width="400px"></img>
