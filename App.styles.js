@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export default appStyles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#045d1a",
+    background: "#045d1a",
     alignItems: "center",
     justifyContent: "center",
   },
@@ -23,16 +23,20 @@ export default appStyles = StyleSheet.create({
     textAlign: "center",
   },
   textInput: {
-    height: 40,
+    height: 50,
     margin: 12,
-    borderWidth: 1,
+    width: "100%",
     padding: 10,
-    fontSize: 20,
+    fontSize: 30,
+    textAlign: "center",
   },
   inputContainer: {
     backgroundColor: "#fff",
-    width: "50%",
-    height: 40,
+    width: "25%",
+    height: 50,
     marginVertical: 10,
+    borderRadius: 10,
+    alignItems: "center",
+    justifyContent: "center",
   },
 });

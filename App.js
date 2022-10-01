@@ -1,6 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { useState } from "react";
 import { Text, View, TextInput } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
 import appStyles from "./App.styles";
 import Table from "./components/Table/Table";
 
@@ -21,14 +22,14 @@ export default function App() {
   };
 
   return (
-    <View style={appStyles.container}>
+    <LinearGradient colors={["#045d1a", "#11ac56"]} style={appStyles.container}>
       <Text style={appStyles.title}>Ten Frame</Text>
       <Text style={appStyles.text}>
         How many counters would you like to place?
       </Text>
       <View style={appStyles.inputContainer}>
         <TextInput
-          styles={appStyles.textInput}
+          style={appStyles.textInput}
           onChangeText={(newAmount) => onChangeAmount(newAmount)}
           returnKeyType="done"
           keyboardType="number-pad"
@@ -39,6 +40,6 @@ export default function App() {
       </View>
       <Table counter={counters} />
       <StatusBar style="auto" />
-    </View>
+    </LinearGradient>
   );
 }
