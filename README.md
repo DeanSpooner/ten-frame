@@ -16,21 +16,13 @@ Welcome to the Ten-Frame repository by Dean Spooner. The aim of this project is 
 ## Built with:
 
 - React Native;
-
 - Expo;
-
 - JavaScript;
-
 - Android Studio;
-
 - Xcode iOS Simulator;
-
 - Node (v16.15.1);
-
 - NPM / NPX;
-
 - Homebrew;
-
 - Jest.
 
 ## Running locally:
