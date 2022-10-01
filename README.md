@@ -13,6 +13,26 @@ Welcome to the Ten-Frame repository by Dean Spooner. The aim of this project is 
 - [ ] Saving a high-score;
 - [ ] Scaled-up for tablets.
 
+## Built with:
+
+- React Native;
+
+- Expo;
+
+- JavaScript;
+
+- Android Studio;
+
+- Xcode iOS Simulator;
+
+- NPM / NPX;
+
+- Node (v16.15.1);
+
+- Homebrew;
+
+- Jest.
+
 ## Running locally:
 
 Please note: the following steps will require [Xcode](https://developer.apple.com/xcode/) and [Android Studio](https://developer.android.com/studio) installed, to run on iOS and Android simulators respectively.
@@ -30,23 +50,14 @@ In your terminal, cd into `ten-frame`:
 
 - NOTE: You may need your Android simulator running prior to selecting it in the CLI; it may need to be configured to have more storage space within its settings on Android Studio.
 
-## Built with:
+## Running tests
 
-- React Native;
+In your terminal, cd into `ten-frame` then run:
 
-- Expo;
+- `npm install` (if not ran before)
+- `npm run test`
 
-- JavaScript;
-
-- Android Studio;
-
-- Xcode iOS Simulator;
-
-- NPM / NPX;
-
-- Homebrew;
-
-- Jest.
+Jest will now run the tests that have been added to this project.
 
 ## Version history
 
@@ -59,5 +70,6 @@ In your terminal, cd into `ten-frame`:
 | 0.2.2   | 01.10.2022 | README.md updated with new iPhone image.                                                                                                                                            |
 | 0.2.3   | 01.10.2022 | Helper function to prevented unwanted character in as second digit.                                                                                                                 |
 | 0.3.0   | 01.10.2022 | Jest testing implemented and configured correctly. Base tests and snapshots added for App.js and Table.jsx.                                                                         |
+| 0.3.1   | 01.10.2022 | README.md updated with testing steps.                                                                                                                                               |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
