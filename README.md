@@ -70,7 +70,7 @@ Jest will now run the tests that have been added to this project.
 | 0.4.1   | 01.10.2022 | Ten frame rotated to horizontal position. Counters now are a random colour each time the input number is changed.                                                                   |
 | 0.4.2   | 01.10.2022 | Ten Frame icon updated.                                                                                                                                                             |
 | 0.4.3   | 01.10.2022 | Text enlarged. Screenshots updated.                                                                                                                                                 |
-| 0.4.4   | 01.10.2022 | Text enlarged. Screenshots updated.                                                                                                                                                 |
+| 0.4.4   | 01.10.2022 | Slight padding added to viewport. Screenshots updated.                                                                                                                              |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
 
