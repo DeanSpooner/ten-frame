@@ -18,10 +18,11 @@ export default tableStyles = StyleSheet.create({
   },
   counter: {
     backgroundColor: "#f00",
-    width: "90%",
-    height: "90%",
+    width: 70,
+    height: 70,
     borderColor: "#000",
     borderWidth: 3,
-    borderRadius: "50%",
+    borderRadius: 50,
+    overflow: "hidden",
   },
 });

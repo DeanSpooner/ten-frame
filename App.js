@@ -7,6 +7,17 @@ import Table from "./components/Table/Table";
 export default function App() {
   const [counters, setCounters] = useState(0);
 
+  const onChangeAmount = (newAmount) => {
+    if (
+      newAmount > 10 ||
+      newAmount.charCodeAt(0) < 48 ||
+      newAmount.charCodeAt(0) > 57
+    ) {
+      return;
+    }
+    setCounters(newAmount);
+  };
+
   return (
     <View style={appStyles.container}>
       <Text style={appStyles.title}>Ten Frame</Text>
@@ -16,9 +27,12 @@ export default function App() {
       <View style={appStyles.inputContainer}>
         <TextInput
           styles={appStyles.textInput}
-          onChangeText={setCounters}
+          onChangeText={(newAmount) => onChangeAmount(newAmount)}
           returnKeyType="done"
           keyboardType="number-pad"
+          value={counters}
+          maxLength={2}
+          contextMenuHidden={true}
         ></TextInput>
       </View>
       <Table counter={counters} />
