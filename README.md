@@ -8,7 +8,6 @@ Welcome to the Ten-Frame repository by Dean Spooner. The aim of this project is 
 - [x] Ensure number input can only be between 0 and 10;
 - [x] Ensure only digits and no alphabetical or special characters can be input;
 - [ ] Testing suites implemented;
-- [ ] TypeScript implemented;
 - [ ] Hamburger menu;
 - [ ] Game to match number of counters with an amount in a certain time;
 - [ ] Saving a high-score;
@@ -54,5 +53,6 @@ In your terminal, cd into `ten-frame`:
 | 0.1.0   | 01.10.2022 | Basic interactive ten-frame with input created; styles and components tidied up and organised.                                                                                      |
 | 0.2.0   | 01.10.2022 | Changes to styles to prevent errors on Android; helper function implemented to only allow a number from 0 to 10 to be input, preventing special characters, preventing pasting etc. |
 | 0.2.1   | 01.10.2022 | README.md updated with project aims checklist and instructions for running locally on simulators and devices.                                                                       |
+| 0.2.2   | 01.10.2022 | README.md updated with new iPhone image.                                                                                                                                            |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
