@@ -1,26 +1,28 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { useState } from "react";
+import { Text, View, TextInput } from "react-native";
+import appStyles from "./App.styles";
+import Table from "./components/Table/Table";
 
 export default function App() {
+  const [counters, setCounters] = useState(0);
+
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>
-        Open up App.js to start working on your app!
+    <View style={appStyles.container}>
+      <Text style={appStyles.title}>Ten Frame</Text>
+      <Text style={appStyles.text}>
+        How many counters would you like to place?
       </Text>
+      <View style={appStyles.inputContainer}>
+        <TextInput
+          styles={appStyles.textInput}
+          onChangeText={setCounters}
+          returnKeyType="done"
+          keyboardType="number-pad"
+        ></TextInput>
+      </View>
+      <Table counter={counters} />
       <StatusBar style="auto" />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#222",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-
-  text: {
-    color: "red",
-  },
-});
