@@ -36,9 +36,9 @@ In your terminal, cd into `ten-frame`:
 - Select the Simulator to run this in, or scan the QR code to run this app on your device (requires Expo Go app);
   <img src="assets/images/terminal.png" width="400px"></img>
   <br></br>
-  <img src="assets/images/iphone.png" width="400px"></img>
+  <img src="assets/images/iphonenew.png" width="400px"></img>
   <br></br>
-  <img src="assets/images/android.png" width="400px"></img>
+  <img src="assets/images/androidnew.png" width="400px"></img>
 
 - NOTE: You may need your Android simulator running prior to selecting it in the CLI; it may need to be configured to have more storage space within its settings on Android Studio.
 
