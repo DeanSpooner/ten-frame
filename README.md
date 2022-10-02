@@ -48,6 +48,13 @@ In your terminal, cd into `ten-frame` then run:
 
 Jest will now run the tests and check against snapshots that have been added to this project.
 
+## Running TypeScript checks:
+
+In your terminal, cd into `ten-frame` then run:
+
+- `npm install typescript -g`(if you don't have already TypeScript installed on your machine)
+- `tsc`
+
 ## Screenshots:
 
 ### Home:
