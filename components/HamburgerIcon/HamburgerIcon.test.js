@@ -1,15 +1,15 @@
 import React from "react";
 import renderer from "react-test-renderer";
-import Header from "./Header";
+import HamburgerIcon from "./HamburgerIcon";
 
-describe("<Header />", () => {
+describe("<HamburgerIcon />", () => {
   it("renders correctly", () => {
-    const tree = renderer.create(<Header />).toJSON();
+    const tree = renderer.create(<HamburgerIcon />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it("has 3 children", () => {
-    const tree = renderer.create(<Header />).toJSON();
+    const tree = renderer.create(<HamburgerIcon />).toJSON();
     expect(tree.children.length).toBe(3);
   });
 });

@@ -52,6 +52,7 @@ exports[`<TenFrame /> renders correctly 1`] = `
         "flexDirection": "row",
         "flexWrap": "wrap",
         "justifyContent": "center",
+        "maxWidth": 360,
         "width": "100%",
       }
     }

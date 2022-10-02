@@ -4,10 +4,12 @@ exports[`<Header /> renders correctly 1`] = `
 <View
   style={
     {
-      "alignItems": "center",
+      "alignItems": "flex-end",
       "backgroundColor": "green",
+      "flex": 1,
+      "flexDirection": "row",
       "height": 100,
-      "justifyContent": "flex-end",
+      "justifyContent": "center",
       "paddingBottom": 5,
       "position": "absolute",
       "top": 0,
@@ -15,6 +17,50 @@ exports[`<Header /> renders correctly 1`] = `
     }
   }
 >
+  <View
+    style={
+      {
+        "flex": 1,
+        "flexDirection": "column",
+        "margin": 10,
+        "width": 30,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "borderColor": "#fff",
+          "borderRadius": 10,
+          "borderWidth": 2,
+          "marginTop": 8,
+          "width": 35,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "borderColor": "#fff",
+          "borderRadius": 10,
+          "borderWidth": 2,
+          "marginTop": 8,
+          "width": 35,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "borderColor": "#fff",
+          "borderRadius": 10,
+          "borderWidth": 2,
+          "marginTop": 8,
+          "width": 35,
+        }
+      }
+    />
+  </View>
   <Text
     style={
       {
@@ -26,5 +72,13 @@ exports[`<Header /> renders correctly 1`] = `
   >
     Ten Frame
   </Text>
+  <View
+    style={
+      {
+        "flex": 1,
+        "margin": 10,
+      }
+    }
+  />
 </View>
 `;

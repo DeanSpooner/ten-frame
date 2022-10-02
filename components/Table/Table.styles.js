@@ -6,6 +6,7 @@ export default tableStyles = StyleSheet.create({
     flexDirection: "row",
     flexWrap: "wrap",
     justifyContent: "center",
+    maxWidth: 360,
   },
   cell: {
     backgroundColor: "#fff",
