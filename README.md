@@ -9,7 +9,7 @@ Welcome to the Ten-Frame repository by Dean Spooner. The aim of this project is 
 - [x] Ensure only digits and no alphabetical or special characters can be input;
 - [x] Jest testing suites implemented;
 - [x] Hamburger menu;
-- [ ] Different screens selectable from Hamburger menu;
+- [x] Different screens selectable from Hamburger menu;
 - [ ] Touchable ten-frame that will show the amount of counters put down;
 - [ ] Game to match number of counters with an amount in a certain time;
 - [ ] Saving a high-score;
