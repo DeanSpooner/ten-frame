@@ -8,8 +8,8 @@ describe("<TenFrameGame />", () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it("contains 4 direct child components", () => {
+  it("has 1 child", () => {
     const tree = renderer.create(<TenFrameGame />).toJSON();
-    expect(tree.length).toBe(4);
+    expect(tree.children.length).toBe(1);
   });
 });

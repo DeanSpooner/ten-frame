@@ -16,7 +16,7 @@ Welcome to the Ten Frame repository by Dean Spooner. The aim of this project is 
 - [x] Hamburger menu;
 - [x] Different screens selectable from Hamburger menu;
 - [x] Touchable ten-frame that will show the amount of counters put down;
-- [ ] Game to match number of counters with an amount in a certain time;
+- [x] Game to match number of counters with an amount in a certain time;
 - [ ] Saving a high-score;
 - [ ] Scaled-up for tablets.
 
@@ -42,6 +42,7 @@ In your terminal, cd into `ten-frame`:
 - `npx expo start`
 - Select the Simulator to run this in, or scan the QR code to run this app on your device (requires Expo Go app);
 - NOTE: You may need your Android simulator running prior to selecting it in the CLI; it may need to be configured to have more storage space within its settings on Android Studio.
+
   <img src="assets/images/terminal.png" width="400px"></img>
 
 ## Running tests:
@@ -60,7 +61,7 @@ In your terminal, cd into `ten-frame` then run:
 - `npm install typescript -g`(if you don't have already TypeScript installed on your machine)
 - `tsc`
 
-## Screenshots:
+## Modes:
 
 ### Home:
 
@@ -72,15 +73,41 @@ In your terminal, cd into `ten-frame` then run:
 
 ### Ten Frame - Input:
 
+Here, you can type in a number from 0 to 10, to see the matching number of counters show on a ten frame:
+
 <img src="assets/images/iphonenew.png" width="400px"></img>
-<br></br>
+
 <img src="assets/images/androidnew.png" width="400px"></img>
 
-### Ten Frame - Input:
+### Ten Frame - Touch:
+
+In this mode, you can touch the squares on the grid to add or remove a counter there, and see the total number of counters you have put down:
 
 <img src="assets/images/iphonetouch.png" width="400px"></img>
-<br></br>
+
 <img src="assets/images/androidtouch.png" width="400px"></img>
+
+### Ten Frame - Game:
+
+Here, you can play a game where you try to count as many correct sets of counters on a ten-frame as possible, in sixty seconds. Your score and total answers are tracked throughout, and at the end you can reset the game to try again:
+
+Start screen:
+
+<img src="assets/images/iphonestart.png" width="400px"></img>
+
+<img src="assets/images/androidstart.png" width="400px"></img>
+
+In game:
+
+<img src="assets/images/iphonegame.png" width="400px"></img>
+
+<img src="assets/images/androidgame.png" width="400px"></img>
+
+End screen:
+
+<img src="assets/images/iphoneend.png" width="400px"></img>
+
+<img src="assets/images/androidend.png" width="400px"></img>
 
 ### About:
 
@@ -119,6 +146,7 @@ In your terminal, cd into `ten-frame` then run:
 | 0.8.3   | 02.10.2022 | All style files updated to .ts format.                                                                                                                                              |
 | 0.8.4   | 02.10.2022 | Ten Frame logo updated. README.md updated.                                                                                                                                          |
 | 0.9.0   | 02.10.2022 | Game mode added, tracking score and total answers. Tests added.                                                                                                                     |
+| 1.0.0   | 02.10.2022 | Game mode completed, with 60 second timer once game starts, and reset button at end. More screenshots added to README.md.                                                           |
 
 <div align="center">
 <img src="assets/images/tflogo.png" width="150px"></img>

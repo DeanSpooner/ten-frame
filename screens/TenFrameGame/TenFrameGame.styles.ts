@@ -7,6 +7,21 @@ const tenFrameGameStyles = StyleSheet.create({
     marginBottom: 50,
     textAlign: "center",
   },
+  time: {
+    color: "#00e8ff",
+    flex: 1,
+    fontSize: 40,
+    marginBottom: 50,
+    textAlign: "center",
+  },
+  timeContainer: {
+    borderColor: "#00e8ff",
+    borderRadius: 50,
+    height: 100,
+    justifyContent: "center",
+    alignItems: "center",
+    width: 100,
+  },
   text: {
     color: "#fff",
     fontSize: 24,
@@ -39,6 +54,29 @@ const tenFrameGameStyles = StyleSheet.create({
     position: "absolute",
     bottom: 60,
     fontWeight: "bold",
+  },
+  resetButtonContainer: {
+    backgroundColor: "#f00",
+    border: "#000",
+    borderRadius: 75,
+    borderWidth: 3,
+    height: 150,
+    justifyContent: "center",
+    width: 150,
+  },
+  startResetButton: {
+    color: "#000",
+    fontSize: 30,
+    textAlign: "center",
+  },
+  startButtonContainer: {
+    backgroundColor: "#ff0",
+    border: "#000",
+    borderRadius: 75,
+    borderWidth: 3,
+    height: 150,
+    justifyContent: "center",
+    width: 150,
   },
 });
 
