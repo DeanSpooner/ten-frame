@@ -1,6 +1,6 @@
 # Ten-Frame by [Dean Spooner](https://github.com/DeanSpooner) <img src="assets/images/tflogo.png" width="80px"></img>
 
-Welcome to the Ten-Frame repository by Dean Spooner. The aim of this project is to provide a simple, interactible mathematical ten-frame that children can use as on an app, capable of running on both Android and iOS devices.
+Welcome to the Ten-Frame repository by Dean Spooner. The aim of this project is to provide a simple, interactible mathematical ten-frame that children can use on an app. This app is capable of running on both Android and iOS devices.
 
 ## Project aims and future goals:
 
@@ -19,7 +19,7 @@ Welcome to the Ten-Frame repository by Dean Spooner. The aim of this project is 
 
 - React Native;
 - Expo;
-- JavaScript;
+- TypeScript/JavaScript;
 - Android Studio;
 - Xcode iOS Simulator;
 - Node (v16.15.1);
@@ -101,6 +101,7 @@ Jest will now run the tests and check against snapshots that have been added to 
 | 0.6.3   | 02.10.2022 | Home screen added. Menu items added to hamburger menu, implemented correctly.                                                                                                       |
 | 0.6.4   | 02.10.2022 | About screen added. More screenshots added to README.md.                                                                                                                            |
 | 0.7.0   | 02.10.2022 | Added touchable ten frame. More screenshots added to README.md.                                                                                                                     |
+| 0.8.0   | 02.10.2022 | TypeScript implemented and fixed across all React components.                                                                                                                       |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
 

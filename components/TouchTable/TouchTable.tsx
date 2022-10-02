@@ -1,19 +1,29 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { TouchableOpacity, View } from "react-native";
 import touchTableStyles from "./TouchTable.styles";
 
-const TouchTable = ({ countersTouched, setCountersTouched }) => {
-  const [touchedCountersArray, setTouchedCountersArray] = useState([]);
+interface TouchTableProps {
+  countersTouched: number;
+  setCountersTouched: React.Dispatch<React.SetStateAction<number>>;
+}
+
+const TouchTable: React.FC<TouchTableProps> = ({
+  countersTouched,
+  setCountersTouched,
+}) => {
+  const [touchedCountersArray, setTouchedCountersArray] = useState<number[]>(
+    []
+  );
 
   const lengthOfFrame = 10;
   const arrayOfCounters = Array.from(Array(lengthOfFrame)).map((e, i) => i + 1);
 
-  const addToArray = (num) => {
+  const addToArray = (num: number) => {
     setTouchedCountersArray([...touchedCountersArray, num]);
     setCountersTouched(countersTouched + 1);
   };
 
-  const removeFromArray = (num) => {
+  const removeFromArray = (num: number) => {
     setTouchedCountersArray((item) =>
       item.filter((element) => {
         return element !== num;
@@ -37,6 +47,7 @@ const TouchTable = ({ countersTouched, setCountersTouched }) => {
           }}
         >
           <View
+            //@ts-ignore
             style={
               touchedCountersArray.includes(num)
                 ? [touchTableStyles.counter]

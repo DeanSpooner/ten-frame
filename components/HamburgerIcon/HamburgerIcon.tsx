@@ -1,8 +1,16 @@
 import React from "react";
-import { TouchableOpacity, View } from "react-native";
+import { TouchableOpacity, View, Text } from "react-native";
 import HamburgerIconStyles from "./HamburgerIcon.styles";
 
-const HamburgerIcon = ({ setMenuDown, menuDown }) => {
+interface HamburgerIconProps {
+  setMenuDown: React.Dispatch<React.SetStateAction<boolean>>;
+  menuDown: boolean;
+}
+
+const HamburgerIcon: React.FC<HamburgerIconProps> = ({
+  setMenuDown,
+  menuDown,
+}) => {
   return (
     <TouchableOpacity
       style={HamburgerIconStyles.container}

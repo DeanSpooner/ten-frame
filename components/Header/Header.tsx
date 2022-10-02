@@ -3,8 +3,18 @@ import { View, Text, TouchableOpacity } from "react-native";
 import HamburgerIcon from "../HamburgerIcon/HamburgerIcon";
 import headerStyles from "./Header.styles";
 
-const Header = ({ setScreen, setMenuDown, menuDown }) => {
-  const screens = [
+interface HeaderProps {
+  setScreen: React.Dispatch<React.SetStateAction<string>>;
+  setMenuDown: React.Dispatch<React.SetStateAction<boolean>>;
+  menuDown: boolean;
+}
+
+const Header: React.FC<HeaderProps> = ({
+  setScreen,
+  setMenuDown,
+  menuDown,
+}) => {
+  const screens: { name: string; text: string }[] = [
     { name: "home", text: "Home" },
     { name: "tenframe", text: "Ten Frame - Input" },
     { name: "tenframetouch", text: "Ten Frame - Touch" },
@@ -16,6 +26,7 @@ const Header = ({ setScreen, setMenuDown, menuDown }) => {
       <View
         style={[
           headerStyles.outerContainer,
+          //@ts-ignore
           menuDown ? { height: 600, zIndex: 100, elevation: 100 } : "",
         ]}
       >
@@ -38,6 +49,7 @@ const Header = ({ setScreen, setMenuDown, menuDown }) => {
         <View
           style={[
             headerStyles.container,
+            //@ts-ignore
             menuDown ? { height: 600, zIndex: 100, elevation: 100 } : "",
           ]}
         >

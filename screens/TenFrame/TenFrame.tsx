@@ -1,11 +1,12 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Text, View, TextInput } from "react-native";
 import Table from "../../components/Table/Table";
 import tenFrameStyles from "./TenFrame.styles";
 
-const TenFrame = () => {
-  const [counters, setCounters] = useState(0);
+const TenFrame: React.FC<{}> = () => {
+  const [counters, setCounters] = useState<number>(0);
 
+  //@ts-ignore
   const onChangeAmount = (newAmount) => {
     if (
       newAmount > 10 ||
@@ -28,6 +29,7 @@ const TenFrame = () => {
           onChangeText={(newAmount) => onChangeAmount(newAmount)}
           returnKeyType="done"
           keyboardType="number-pad"
+          //@ts-ignore
           value={counters}
           maxLength={2}
           contextMenuHidden={true}

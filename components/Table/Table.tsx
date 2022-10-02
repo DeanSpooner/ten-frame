@@ -1,8 +1,12 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { View } from "react-native";
 import tableStyles from "./Table.styles";
 
-export default Table = ({ counter }) => {
+interface TableProps {
+  counter: number;
+}
+
+const Table: React.FC<TableProps> = ({ counter }) => {
   const [randomColour, setRandomColour] = useState("red");
   const lengthOfFrame = 10;
   const arrayOfCounters = Array.from(Array(lengthOfFrame)).map((e, i) => i + 1);
@@ -19,6 +23,7 @@ export default Table = ({ counter }) => {
       {arrayOfCounters.map((num) => (
         <View style={tableStyles.cell} key={num}>
           <View
+            //@ts-ignore
             style={
               counter < num
                 ? ""
@@ -30,3 +35,5 @@ export default Table = ({ counter }) => {
     </View>
   );
 };
+
+export default Table;

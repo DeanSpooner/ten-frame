@@ -1,9 +1,9 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Text } from "react-native";
 import TouchTable from "../../components/TouchTable/TouchTable";
 import tenFrameTouchStyles from "./TenFrameTouch.styles";
 
-const TenFrameTouch = () => {
+const TenFrameTouch: React.FC<{}> = () => {
   const [countersTouched, setCountersTouched] = useState(0);
 
   return (

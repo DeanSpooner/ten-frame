@@ -1,7 +1,8 @@
+import React from "react";
 import { Image, Text } from "react-native";
 import aboutStyles from "./About.styles";
 
-const About = () => {
+const About: React.FC<{}> = () => {
   return (
     <>
       <Image
