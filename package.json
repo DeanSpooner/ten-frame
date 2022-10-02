@@ -1,6 +1,6 @@
 {
   "name": "ten-frame",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "scripts": {
     "start": "expo start --dev-client",
     "android": "expo run:android",
@@ -33,6 +33,7 @@
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.19.3",
     "@types/expo": "^33.0.1",
+    "@types/jest": "^29.1.1",
     "@types/react": "^18.0.21",
     "@types/react-native": "^0.70.4",
     "babel-jest": "^29.1.2",
