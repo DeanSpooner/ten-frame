@@ -4,6 +4,7 @@ import appStyles from "./App.styles";
 import TenFrame from "./screens/TenFrame/TenFrame";
 import Header from "./components/Header/Header";
 import Home from "./screens/Home/Home";
+import About from "./screens/About/About";
 import { useState } from "react";
 import { TouchableOpacity } from "react-native";
 
@@ -33,6 +34,7 @@ export default function App() {
       )}
       {screen === "home" && !menuDown && <Home />}
       {screen === "tenframe" && !menuDown && <TenFrame />}
+      {screen === "about" && !menuDown && <About />}
       <StatusBar style="auto" />
     </LinearGradient>
   );

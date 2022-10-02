@@ -32,6 +32,15 @@ const Header = ({ setScreen, setMenuDown, menuDown }) => {
             >
               <Text style={headerStyles.menuItem}>Ten Frame</Text>
             </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() => {
+                setScreen("about");
+                setMenuDown(!menuDown);
+              }}
+              style={headerStyles.menuItemContainer}
+            >
+              <Text style={headerStyles.menuItem}>About</Text>
+            </TouchableOpacity>
           </View>
         )}
         <View

@@ -36,13 +36,8 @@ In your terminal, cd into `ten-frame`:
 - `npm install`
 - `npx expo start`
 - Select the Simulator to run this in, or scan the QR code to run this app on your device (requires Expo Go app);
-  <img src="assets/images/terminal.png" width="400px"></img>
-  <br></br>
-  <img src="assets/images/iphonenew.png" width="400px"></img>
-  <br></br>
-  <img src="assets/images/androidnew.png" width="400px"></img>
-
 - NOTE: You may need your Android simulator running prior to selecting it in the CLI; it may need to be configured to have more storage space within its settings on Android Studio.
+  <img src="assets/images/terminal.png" width="400px"></img>
 
 ## Running tests:
 
@@ -51,7 +46,27 @@ In your terminal, cd into `ten-frame` then run:
 - `npm install` (if not ran before)
 - `npm run test`
 
-Jest will now run the tests that have been added to this project.
+Jest will now run the tests and check against snapshots that have been added to this project.
+
+## Screenshots:
+
+### Home:
+
+<img src="assets/images/home.png" width="400px"></img>
+
+### Menu:
+
+<img src="assets/images/menu.png" width="400px"></img>
+
+### Ten Frame:
+
+<img src="assets/images/iphonenew.png" width="400px"></img>
+<br></br>
+<img src="assets/images/androidnew.png" width="400px"></img>
+
+### About:
+
+<img src="assets/images/about.png" width="400px"></img>
 
 ## Version history:
 
@@ -78,6 +93,7 @@ Jest will now run the tests that have been added to this project.
 | 0.6.1   | 02.10.2022 | Hamburger icon created and implemented into header.                                                                                                                                 |
 | 0.6.2   | 02.10.2022 | Close icon added. Touch functionality now implemented to open and close a top-down drawer from the header.                                                                          |
 | 0.6.3   | 02.10.2022 | Home screen added. Menu items added to hamburger menu, implemented correctly.                                                                                                       |
+| 0.6.4   | 02.10.2022 | About screen added. More screenshots added to README.md.                                                                                                                            |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
 

@@ -1,5 +1,5 @@
 import { Text } from "react-native";
-import tenFrameStyles from "./Home.styles";
+import homeStyles from "./Home.styles";
 
 const Home = () => {
   return (

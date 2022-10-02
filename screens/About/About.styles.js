@@ -1,10 +1,10 @@
 import { StyleSheet } from "react-native";
 
-export default homeStyles = StyleSheet.create({
+export default aboutStyles = StyleSheet.create({
   text: {
     color: "#fff",
-    fontSize: 30,
+    fontSize: 20,
     textAlign: "center",
-    marginHorizontal: 5,
+    marginTop: 15,
   },
 });
