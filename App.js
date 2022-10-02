@@ -1,12 +1,13 @@
-import { StatusBar } from "expo-status-bar";
-import { LinearGradient } from "expo-linear-gradient";
-import appStyles from "./App.styles";
-import TenFrame from "./screens/TenFrame/TenFrame";
-import Header from "./components/Header/Header";
-import Home from "./screens/Home/Home";
-import About from "./screens/About/About";
 import { useState } from "react";
 import { TouchableOpacity } from "react-native";
+import { StatusBar } from "expo-status-bar";
+import { LinearGradient } from "expo-linear-gradient";
+import Header from "./components/Header/Header";
+import Home from "./screens/Home/Home";
+import TenFrame from "./screens/TenFrame/TenFrame";
+import TenFrameTouch from "./screens/TenFrameTouch/TenFrameTouch";
+import About from "./screens/About/About";
+import appStyles from "./App.styles";
 
 export default function App() {
   const [screen, setScreen] = useState("home");
@@ -34,6 +35,7 @@ export default function App() {
       )}
       {screen === "home" && !menuDown && <Home />}
       {screen === "tenframe" && !menuDown && <TenFrame />}
+      {screen === "tenframetouch" && !menuDown && <TenFrameTouch />}
       {screen === "about" && !menuDown && <About />}
       <StatusBar style="auto" />
     </LinearGradient>

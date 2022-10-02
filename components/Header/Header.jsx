@@ -4,6 +4,13 @@ import HamburgerIcon from "../HamburgerIcon/HamburgerIcon";
 import headerStyles from "./Header.styles";
 
 const Header = ({ setScreen, setMenuDown, menuDown }) => {
+  const screens = [
+    { name: "home", text: "Home" },
+    { name: "tenframe", text: "Ten Frame - Input" },
+    { name: "tenframetouch", text: "Ten Frame - Touch" },
+    { name: "about", text: "About" },
+  ];
+
   return (
     <>
       <View
@@ -14,33 +21,18 @@ const Header = ({ setScreen, setMenuDown, menuDown }) => {
       >
         {menuDown && (
           <View style={{ zIndex: 101, elevation: 101 }}>
-            <TouchableOpacity
-              onPress={() => {
-                setScreen("home");
-                setMenuDown(!menuDown);
-              }}
-              style={headerStyles.menuItemContainer}
-            >
-              <Text style={headerStyles.menuItem}>Home</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              onPress={() => {
-                setScreen("tenframe");
-                setMenuDown(!menuDown);
-              }}
-              style={headerStyles.menuItemContainer}
-            >
-              <Text style={headerStyles.menuItem}>Ten Frame</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              onPress={() => {
-                setScreen("about");
-                setMenuDown(!menuDown);
-              }}
-              style={headerStyles.menuItemContainer}
-            >
-              <Text style={headerStyles.menuItem}>About</Text>
-            </TouchableOpacity>
+            {screens.map((screen) => (
+              <TouchableOpacity
+                onPress={() => {
+                  setScreen(screen.name);
+                  setMenuDown(!menuDown);
+                }}
+                style={headerStyles.menuItemContainer}
+                key={screen.name}
+              >
+                <Text style={headerStyles.menuItem}>{screen.text}</Text>
+              </TouchableOpacity>
+            ))}
           </View>
         )}
         <View

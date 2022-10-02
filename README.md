@@ -10,7 +10,7 @@ Welcome to the Ten-Frame repository by Dean Spooner. The aim of this project is 
 - [x] Jest testing suites implemented;
 - [x] Hamburger menu;
 - [x] Different screens selectable from Hamburger menu;
-- [ ] Touchable ten-frame that will show the amount of counters put down;
+- [x] Touchable ten-frame that will show the amount of counters put down;
 - [ ] Game to match number of counters with an amount in a certain time;
 - [ ] Saving a high-score;
 - [ ] Scaled-up for tablets.
@@ -58,11 +58,17 @@ Jest will now run the tests and check against snapshots that have been added to 
 
 <img src="assets/images/menu.png" width="400px"></img>
 
-### Ten Frame:
+### Ten Frame - Input:
 
 <img src="assets/images/iphonenew.png" width="400px"></img>
 <br></br>
 <img src="assets/images/androidnew.png" width="400px"></img>
+
+### Ten Frame - Input:
+
+<img src="assets/images/iphonetouch.png" width="400px"></img>
+<br></br>
+<img src="assets/images/androidtouch.png" width="400px"></img>
 
 ### About:
 
@@ -94,6 +100,7 @@ Jest will now run the tests and check against snapshots that have been added to 
 | 0.6.2   | 02.10.2022 | Close icon added. Touch functionality now implemented to open and close a top-down drawer from the header.                                                                          |
 | 0.6.3   | 02.10.2022 | Home screen added. Menu items added to hamburger menu, implemented correctly.                                                                                                       |
 | 0.6.4   | 02.10.2022 | About screen added. More screenshots added to README.md.                                                                                                                            |
+| 0.7.0   | 02.10.2022 | Added touchable ten frame. More screenshots added to README.md.                                                                                                                     |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
 
