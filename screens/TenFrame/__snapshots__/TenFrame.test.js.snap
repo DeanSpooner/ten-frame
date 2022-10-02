@@ -6,19 +6,8 @@ exports[`<TenFrame /> renders correctly 1`] = `
     style={
       {
         "color": "#fff",
-        "fontSize": 72,
-        "marginVertical": 40,
-        "textAlign": "center",
-      }
-    }
-  >
-    Ten Frame
-  </Text>,
-  <Text
-    style={
-      {
-        "color": "#fff",
         "fontSize": 30,
+        "marginHorizontal": 5,
         "textAlign": "center",
       }
     }

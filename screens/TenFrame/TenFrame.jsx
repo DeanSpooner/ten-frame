@@ -21,7 +21,6 @@ const TenFrame = () => {
 
   return (
     <>
-      <Text style={tenFrameStyles.title}>Ten Frame</Text>
       <Text style={tenFrameStyles.text}>
         How many counters would you like to place?
       </Text>

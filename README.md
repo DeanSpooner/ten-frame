@@ -72,6 +72,7 @@ Jest will now run the tests that have been added to this project.
 | 0.4.3   | 01.10.2022 | Text enlarged. Screenshots updated.                                                                                                                                                 |
 | 0.4.4   | 01.10.2022 | Slight padding added to viewport. Screenshots updated.                                                                                                                              |
 | 0.5.0   | 02.10.2022 | Re-organisation of project, splitting of main screen into separate component out of App.js. Tests added/updated.                                                                    |
+| 0.6.0   | 02.10.2022 | Header added with tests.                                                                                                                                                            |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
 

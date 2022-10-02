@@ -8,8 +8,8 @@ describe("<TenFrame />", () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it("contains 4 direct child components", () => {
+  it("contains 3 direct child components", () => {
     const tree = renderer.create(<TenFrame />).toJSON();
-    expect(tree.length).toBe(4);
+    expect(tree.length).toBe(3);
   });
 });

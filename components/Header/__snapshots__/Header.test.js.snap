@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "green",
+      "height": 100,
+      "justifyContent": "flex-end",
+      "paddingBottom": 5,
+      "position": "absolute",
+      "top": 0,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#fff",
+        "fontSize": 40,
+        "textAlign": "center",
+      }
+    }
+  >
+    Ten Frame
+  </Text>
+</View>
+`;

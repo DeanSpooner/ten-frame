@@ -5,16 +5,11 @@ export default tenFrameStyles = StyleSheet.create({
     width: "100px",
     height: "100px",
   },
-  title: {
-    color: "#fff",
-    fontSize: 72,
-    marginVertical: 40,
-    textAlign: "center",
-  },
   text: {
     color: "#fff",
     fontSize: 30,
     textAlign: "center",
+    marginHorizontal: 5,
   },
   textInput: {
     height: 60,

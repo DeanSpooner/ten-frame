@@ -6,6 +6,5 @@ export default appStyles = StyleSheet.create({
     background: "#045d1a",
     alignItems: "center",
     justifyContent: "center",
-    paddingHorizontal: 5,
   },
 });
