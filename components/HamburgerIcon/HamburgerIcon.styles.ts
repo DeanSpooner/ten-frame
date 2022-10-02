@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export default hamburgerIconStyles = StyleSheet.create({
+const hamburgerIconStyles = StyleSheet.create({
   container: {
     flexDirection: "column",
     margin: 10,
@@ -23,3 +23,5 @@ export default hamburgerIconStyles = StyleSheet.create({
     transform: [{ rotate: "45deg" }],
   },
 });
+
+export default hamburgerIconStyles;

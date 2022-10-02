@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export default tableStyles = StyleSheet.create({
+const tableStyles = StyleSheet.create({
   container: {
     width: "100%",
     flexDirection: "row",
@@ -26,3 +26,5 @@ export default tableStyles = StyleSheet.create({
     overflow: "hidden",
   },
 });
+
+export default tableStyles;

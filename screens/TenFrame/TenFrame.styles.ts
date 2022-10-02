@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export default tenFrameStyles = StyleSheet.create({
+const tenFrameStyles = StyleSheet.create({
   cell: {
     width: "100px",
     height: "100px",
@@ -29,3 +29,5 @@ export default tenFrameStyles = StyleSheet.create({
     justifyContent: "center",
   },
 });
+
+export default tenFrameStyles;

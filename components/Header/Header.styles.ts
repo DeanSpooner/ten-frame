@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export default headerStyles = StyleSheet.create({
+const headerStyles = StyleSheet.create({
   outerContainer: {
     flexDirection: "column",
     width: "100%",
@@ -46,3 +46,5 @@ export default headerStyles = StyleSheet.create({
     justifyContent: "center",
   },
 });
+
+export default headerStyles;

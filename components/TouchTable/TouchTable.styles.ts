@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export default touchTableStyles = StyleSheet.create({
+const touchTableStyles = StyleSheet.create({
   container: {
     width: "100%",
     flexDirection: "row",
@@ -27,3 +27,5 @@ export default touchTableStyles = StyleSheet.create({
     overflow: "hidden",
   },
 });
+
+export default touchTableStyles;

@@ -104,6 +104,7 @@ Jest will now run the tests and check against snapshots that have been added to 
 | 0.8.0   | 02.10.2022 | TypeScript implemented and fixed across all React components.                                                                                                                       |
 | 0.8.1   | 02.10.2022 | Further type declarations and fixes.                                                                                                                                                |
 | 0.8.2   | 02.10.2022 | All tests updated to .tsx format.                                                                                                                                                   |
+| 0.8.3   | 02.10.2022 | All style files updated to .ts format.                                                                                                                                              |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
 

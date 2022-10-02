@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export default tenFrameTouchStyles = StyleSheet.create({
+const tenFrameTouchStyles = StyleSheet.create({
   text: { color: "#fff", fontSize: 20, marginBottom: 15 },
   amount: {
     color: "#fff",
@@ -8,3 +8,5 @@ export default tenFrameTouchStyles = StyleSheet.create({
     marginTop: 15,
   },
 });
+
+export default tenFrameTouchStyles;
