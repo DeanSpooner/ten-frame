@@ -21,9 +21,7 @@ const TenFrame = () => {
 
   return (
     <>
-      <Text style={tenFrameStyles.text}>
-        How many counters would you like to place?
-      </Text>
+      <Text style={tenFrameStyles.text}>How many counters will you place?</Text>
       <View style={tenFrameStyles.inputContainer}>
         <TextInput
           style={tenFrameStyles.textInput}

@@ -1,13 +1,13 @@
 import { StyleSheet } from "react-native";
 
-export default tenFrameStyles = StyleSheet.create({
+export default homeStyles = StyleSheet.create({
   cell: {
     width: "100px",
     height: "100px",
   },
   text: {
     color: "#fff",
-    fontSize: 24,
+    fontSize: 30,
     textAlign: "center",
     marginHorizontal: 5,
   },
@@ -27,5 +27,6 @@ export default tenFrameStyles = StyleSheet.create({
     borderRadius: 10,
     alignItems: "center",
     justifyContent: "center",
+    flexDirection: "column",
   },
 });

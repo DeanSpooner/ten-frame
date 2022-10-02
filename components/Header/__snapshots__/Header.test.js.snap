@@ -5,11 +5,10 @@ exports[`<Header /> renders correctly 1`] = `
   style={
     [
       {
-        "alignItems": "flex-end",
-        "backgroundColor": "green",
-        "flex": 1,
-        "flexDirection": "row",
-        "height": 100,
+        "alignContent": "center",
+        "alignItems": "center",
+        "flexDirection": "column",
+        "flexWrap": "wrap",
         "justifyContent": "center",
         "paddingBottom": 5,
         "position": "absolute",
@@ -21,78 +20,98 @@ exports[`<Header /> renders correctly 1`] = `
   }
 >
   <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
     style={
-      {
-        "flex": 1,
-        "flexDirection": "column",
-        "margin": 10,
-        "opacity": 1,
-        "width": 30,
-      }
+      [
+        {
+          "alignContent": "flex-end",
+          "alignItems": "flex-end",
+          "backgroundColor": "green",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "height": 100,
+          "paddingBottom": 5,
+          "position": "absolute",
+          "top": 0,
+          "width": "100%",
+        },
+        "",
+      ]
     }
   >
     <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         {
-          "borderColor": "#fff",
-          "borderRadius": 10,
-          "borderWidth": 2,
-          "marginTop": 8,
-          "width": 35,
+          "flex": 1,
+          "flexDirection": "column",
+          "margin": 10,
+          "opacity": 1,
+          "width": 30,
         }
       }
-    />
+    >
+      <View
+        style={
+          {
+            "borderColor": "#fff",
+            "borderRadius": 10,
+            "borderWidth": 2,
+            "marginTop": 8,
+            "width": 35,
+          }
+        }
+      />
+      <View
+        style={
+          {
+            "borderColor": "#fff",
+            "borderRadius": 10,
+            "borderWidth": 2,
+            "marginTop": 8,
+            "width": 35,
+          }
+        }
+      />
+      <View
+        style={
+          {
+            "borderColor": "#fff",
+            "borderRadius": 10,
+            "borderWidth": 2,
+            "marginTop": 8,
+            "width": 35,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        {
+          "color": "#fff",
+          "fontSize": 40,
+          "textAlign": "center",
+        }
+      }
+    >
+      Ten Frame
+    </Text>
     <View
       style={
         {
-          "borderColor": "#fff",
-          "borderRadius": 10,
-          "borderWidth": 2,
-          "marginTop": 8,
-          "width": 35,
-        }
-      }
-    />
-    <View
-      style={
-        {
-          "borderColor": "#fff",
-          "borderRadius": 10,
-          "borderWidth": 2,
-          "marginTop": 8,
-          "width": 35,
+          "flex": 1,
+          "margin": 10,
         }
       }
     />
   </View>
-  <Text
-    style={
-      {
-        "color": "#fff",
-        "fontSize": 40,
-        "textAlign": "center",
-      }
-    }
-  >
-    Ten Frame
-  </Text>
-  <View
-    style={
-      {
-        "flex": 1,
-        "margin": 10,
-      }
-    }
-  />
 </View>
 `;

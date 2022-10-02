@@ -6,13 +6,13 @@ exports[`<TenFrame /> renders correctly 1`] = `
     style={
       {
         "color": "#fff",
-        "fontSize": 30,
+        "fontSize": 24,
         "marginHorizontal": 5,
         "textAlign": "center",
       }
     }
   >
-    How many counters would you like to place?
+    How many counters will you place?
   </Text>,
   <View
     style={

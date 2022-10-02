@@ -1,15 +1,15 @@
 import React from "react";
 import renderer from "react-test-renderer";
-import Header from "./Header";
+import Home from "./Home";
 
-describe("<Header />", () => {
+describe("<Home />", () => {
   it("renders correctly", () => {
-    const tree = renderer.create(<Header />).toJSON();
+    const tree = renderer.create(<Home />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it("has 1 child", () => {
-    const tree = renderer.create(<Header />).toJSON();
+  it("has 1 child ", () => {
+    const tree = renderer.create(<Home />).toJSON();
     expect(tree.children.length).toBe(1);
   });
 });

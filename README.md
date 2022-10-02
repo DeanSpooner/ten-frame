@@ -9,6 +9,8 @@ Welcome to the Ten-Frame repository by Dean Spooner. The aim of this project is 
 - [x] Ensure only digits and no alphabetical or special characters can be input;
 - [x] Jest testing suites implemented;
 - [x] Hamburger menu;
+- [ ] Different screens selectable from Hamburger menu;
+- [ ] Touchable ten-frame that will show the amount of counters put down;
 - [ ] Game to match number of counters with an amount in a certain time;
 - [ ] Saving a high-score;
 - [ ] Scaled-up for tablets.
@@ -75,6 +77,7 @@ Jest will now run the tests that have been added to this project.
 | 0.6.0   | 02.10.2022 | Header added with tests.                                                                                                                                                            |
 | 0.6.1   | 02.10.2022 | Hamburger icon created and implemented into header.                                                                                                                                 |
 | 0.6.2   | 02.10.2022 | Close icon added. Touch functionality now implemented to open and close a top-down drawer from the header.                                                                          |
+| 0.6.3   | 02.10.2022 | Home screen added. Menu items added to hamburger menu, implemented correctly.                                                                                                       |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
 

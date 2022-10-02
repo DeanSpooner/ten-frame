@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> renders correctly 1`] = `
+<Text
+  style={
+    {
+      "color": "#fff",
+      "fontSize": 30,
+      "marginHorizontal": 5,
+      "textAlign": "center",
+    }
+  }
+>
+  Welcome to the Ten Frame app!
+</Text>
+`;
