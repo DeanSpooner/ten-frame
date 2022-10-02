@@ -1,46 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<App /> renders correctly 1`] = `
-<View
-  style={
-    {
-      "alignItems": "center",
-      "backgroundColor": "#045d1a",
-      "flex": 1,
-      "justifyContent": "center",
-    }
-  }
->
+exports[`<TenFrame /> renders correctly 1`] = `
+[
   <Text
     style={
       {
         "color": "#fff",
-        "fontSize": 40,
+        "fontSize": 72,
         "marginVertical": 40,
         "textAlign": "center",
       }
     }
   >
     Ten Frame
-  </Text>
+  </Text>,
   <Text
     style={
       {
         "color": "#fff",
-        "fontSize": 20,
+        "fontSize": 30,
         "textAlign": "center",
       }
     }
   >
     How many counters would you like to place?
-  </Text>
+  </Text>,
   <View
     style={
       {
+        "alignItems": "center",
         "backgroundColor": "#fff",
-        "height": 40,
+        "borderRadius": 10,
+        "height": 60,
+        "justifyContent": "center",
         "marginVertical": 10,
-        "width": "50%",
+        "width": "25%",
       }
     }
   >
@@ -50,25 +44,26 @@ exports[`<App /> renders correctly 1`] = `
       maxLength={2}
       onChangeText={[Function]}
       returnKeyType="done"
-      styles={
+      style={
         {
-          "borderWidth": 1,
-          "fontSize": 20,
-          "height": 40,
+          "fontSize": 40,
+          "height": 60,
           "margin": 12,
           "padding": 10,
+          "textAlign": "center",
+          "width": "100%",
         }
       }
       value={0}
     />
-  </View>
+  </View>,
   <View
     style={
       {
         "flexDirection": "row",
         "flexWrap": "wrap",
         "justifyContent": "center",
-        "width": 166,
+        "width": "100%",
       }
     }
   >
@@ -79,9 +74,9 @@ exports[`<App /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 80,
+          "height": 72,
           "justifyContent": "center",
-          "width": 80,
+          "width": 72,
         }
       }
     >
@@ -96,9 +91,9 @@ exports[`<App /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 80,
+          "height": 72,
           "justifyContent": "center",
-          "width": 80,
+          "width": 72,
         }
       }
     >
@@ -113,9 +108,9 @@ exports[`<App /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 80,
+          "height": 72,
           "justifyContent": "center",
-          "width": 80,
+          "width": 72,
         }
       }
     >
@@ -130,9 +125,9 @@ exports[`<App /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 80,
+          "height": 72,
           "justifyContent": "center",
-          "width": 80,
+          "width": 72,
         }
       }
     >
@@ -147,9 +142,9 @@ exports[`<App /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 80,
+          "height": 72,
           "justifyContent": "center",
-          "width": 80,
+          "width": 72,
         }
       }
     >
@@ -164,9 +159,9 @@ exports[`<App /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 80,
+          "height": 72,
           "justifyContent": "center",
-          "width": 80,
+          "width": 72,
         }
       }
     >
@@ -181,9 +176,9 @@ exports[`<App /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 80,
+          "height": 72,
           "justifyContent": "center",
-          "width": 80,
+          "width": 72,
         }
       }
     >
@@ -198,9 +193,9 @@ exports[`<App /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 80,
+          "height": 72,
           "justifyContent": "center",
-          "width": 80,
+          "width": 72,
         }
       }
     >
@@ -215,9 +210,9 @@ exports[`<App /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 80,
+          "height": 72,
           "justifyContent": "center",
-          "width": 80,
+          "width": 72,
         }
       }
     >
@@ -232,9 +227,9 @@ exports[`<App /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 80,
+          "height": 72,
           "justifyContent": "center",
-          "width": 80,
+          "width": 72,
         }
       }
     >
@@ -242,6 +237,6 @@ exports[`<App /> renders correctly 1`] = `
         style=""
       />
     </View>
-  </View>
-</View>
+  </View>,
+]
 `;
