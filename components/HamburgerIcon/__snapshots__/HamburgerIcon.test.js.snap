@@ -2,11 +2,22 @@
 
 exports[`<HamburgerIcon /> renders correctly 1`] = `
 <View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
   style={
     {
       "flex": 1,
       "flexDirection": "column",
       "margin": 10,
+      "opacity": 1,
       "width": 30,
     }
   }

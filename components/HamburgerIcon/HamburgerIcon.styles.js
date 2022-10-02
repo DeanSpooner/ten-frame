@@ -14,4 +14,12 @@ export default hamburgerIconStyles = StyleSheet.create({
     marginTop: 8,
     width: 35,
   },
+  crossLine: {
+    borderColor: "#fff",
+    borderRadius: 10,
+    borderWidth: 2,
+    marginTop: 8,
+    width: 35,
+    transform: [{ rotate: "45deg" }],
+  },
 });

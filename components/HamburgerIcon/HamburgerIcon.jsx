@@ -1,14 +1,34 @@
 import React from "react";
-import { View } from "react-native";
+import { TouchableOpacity, View } from "react-native";
 import HamburgerIconStyles from "./HamburgerIcon.styles";
 
-const HamburgerIcon = () => {
+const HamburgerIcon = ({ setMenuDown, menuDown }) => {
   return (
-    <View style={HamburgerIconStyles.container}>
-      <View style={HamburgerIconStyles.line} />
-      <View style={HamburgerIconStyles.line} />
-      <View style={HamburgerIconStyles.line} />
-    </View>
+    <TouchableOpacity
+      style={HamburgerIconStyles.container}
+      onPress={() => {
+        setMenuDown(!menuDown);
+      }}
+    >
+      {!menuDown && (
+        <>
+          <View style={HamburgerIconStyles.line} />
+          <View style={HamburgerIconStyles.line} />
+          <View style={HamburgerIconStyles.line} />
+        </>
+      )}
+      {menuDown && (
+        <>
+          <View style={HamburgerIconStyles.crossLine} />
+          <View
+            style={[
+              HamburgerIconStyles.crossLine,
+              { transform: [{ translateY: -12 }, { rotate: "135deg" }] },
+            ]}
+          />
+        </>
+      )}
+    </TouchableOpacity>
   );
 };
 
