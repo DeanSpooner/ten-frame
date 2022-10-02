@@ -1,6 +1,11 @@
-# Ten-Frame by [Dean Spooner](https://github.com/DeanSpooner) <img src="assets/images/tflogo.png" width="80px"></img>
+<div align="center">
 
-Welcome to the Ten-Frame repository by Dean Spooner. The aim of this project is to provide a simple, interactible mathematical ten-frame that children can use on an app. This app is capable of running on both Android and iOS devices.
+# Ten Frame by [Dean Spooner](https://github.com/DeanSpooner)
+
+<img src="assets/images/tflogo.png" width="400px"></img>
+
+</div>
+Welcome to the Ten Frame repository by Dean Spooner. The aim of this project is to provide a simple, interactible mathematical ten-frame that children can use on an app. This app is capable of running on both Android and iOS devices.
 
 ## Project aims and future goals:
 
@@ -97,7 +102,7 @@ In your terminal, cd into `ten-frame` then run:
 | 0.3.3   | 01.10.2022 | Ten Frame icon added to assets and README.md.                                                                                                                                       |
 | 0.3.4   | 01.10.2022 | Renamed array in Table.jsx.                                                                                                                                                         |
 | 0.4.0   | 01.10.2022 | Styling updated for background and input. Screenshots updated.                                                                                                                      |
-| 0.4.1   | 01.10.2022 | Ten frame rotated to horizontal position. Counters now are a random colour each time the input number is changed.                                                                   |
+| 0.4.1   | 01.10.2022 | Ten-frame rotated to horizontal position. Counters now are a random colour each time the input number is changed.                                                                   |
 | 0.4.2   | 01.10.2022 | Ten Frame icon updated.                                                                                                                                                             |
 | 0.4.3   | 01.10.2022 | Text enlarged. Screenshots updated.                                                                                                                                                 |
 | 0.4.4   | 01.10.2022 | Slight padding added to viewport. Screenshots updated.                                                                                                                              |
@@ -107,12 +112,16 @@ In your terminal, cd into `ten-frame` then run:
 | 0.6.2   | 02.10.2022 | Close icon added. Touch functionality now implemented to open and close a top-down drawer from the header.                                                                          |
 | 0.6.3   | 02.10.2022 | Home screen added. Menu items added to hamburger menu, implemented correctly.                                                                                                       |
 | 0.6.4   | 02.10.2022 | About screen added. More screenshots added to README.md.                                                                                                                            |
-| 0.7.0   | 02.10.2022 | Added touchable ten frame. More screenshots added to README.md.                                                                                                                     |
+| 0.7.0   | 02.10.2022 | Added touchable ten-frame. More screenshots added to README.md.                                                                                                                     |
 | 0.8.0   | 02.10.2022 | TypeScript implemented and fixed across all React components.                                                                                                                       |
 | 0.8.1   | 02.10.2022 | Further type declarations and fixes.                                                                                                                                                |
 | 0.8.2   | 02.10.2022 | All tests updated to .tsx format.                                                                                                                                                   |
 | 0.8.3   | 02.10.2022 | All style files updated to .ts format.                                                                                                                                              |
+| 0.8.4   | 02.10.2022 | Ten Frame logo updated. README.md updated.                                                                                                                                          |
+
+<div align="center">
+<img src="assets/images/tflogo.png" width="150px"></img>
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
 
-<img src="assets/images/tflogo.png" width="400px"></img>
+</div>
