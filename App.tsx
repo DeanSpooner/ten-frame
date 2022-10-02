@@ -8,6 +8,7 @@ import TenFrame from "./screens/TenFrame/TenFrame";
 import TenFrameTouch from "./screens/TenFrameTouch/TenFrameTouch";
 import About from "./screens/About/About";
 import appStyles from "./App.styles";
+import TenFrameGame from "./screens/TenFrameGame/TenFrameGame";
 
 const App: React.FC<{}> = () => {
   const [screen, setScreen] = useState<string>("home");
@@ -36,7 +37,9 @@ const App: React.FC<{}> = () => {
       {screen === "home" && !menuDown && <Home />}
       {screen === "tenframe" && !menuDown && <TenFrame />}
       {screen === "tenframetouch" && !menuDown && <TenFrameTouch />}
+      {screen === "tenframegame" && !menuDown && <TenFrameGame />}
       {screen === "about" && !menuDown && <About />}
+
       <StatusBar style="auto" />
     </LinearGradient>
   );

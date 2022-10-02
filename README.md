@@ -118,6 +118,7 @@ In your terminal, cd into `ten-frame` then run:
 | 0.8.2   | 02.10.2022 | All tests updated to .tsx format.                                                                                                                                                   |
 | 0.8.3   | 02.10.2022 | All style files updated to .ts format.                                                                                                                                              |
 | 0.8.4   | 02.10.2022 | Ten Frame logo updated. README.md updated.                                                                                                                                          |
+| 0.9.0   | 02.10.2022 | Game mode added, tracking score and total answers. Tests added.                                                                                                                     |
 
 <div align="center">
 <img src="assets/images/tflogo.png" width="150px"></img>

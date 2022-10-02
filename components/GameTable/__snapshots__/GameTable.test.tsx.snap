@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GameTable /> renders correctly 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "justifyContent": "center",
+      "maxWidth": 360,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#000",
+        "borderWidth": 3,
+        "height": 72,
+        "justifyContent": "center",
+        "width": 72,
+      }
+    }
+  >
+    <View
+      style=""
+    />
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#000",
+        "borderWidth": 3,
+        "height": 72,
+        "justifyContent": "center",
+        "width": 72,
+      }
+    }
+  >
+    <View
+      style=""
+    />
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#000",
+        "borderWidth": 3,
+        "height": 72,
+        "justifyContent": "center",
+        "width": 72,
+      }
+    }
+  >
+    <View
+      style=""
+    />
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#000",
+        "borderWidth": 3,
+        "height": 72,
+        "justifyContent": "center",
+        "width": 72,
+      }
+    }
+  >
+    <View
+      style=""
+    />
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#000",
+        "borderWidth": 3,
+        "height": 72,
+        "justifyContent": "center",
+        "width": 72,
+      }
+    }
+  >
+    <View
+      style=""
+    />
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#000",
+        "borderWidth": 3,
+        "height": 72,
+        "justifyContent": "center",
+        "width": 72,
+      }
+    }
+  >
+    <View
+      style=""
+    />
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#000",
+        "borderWidth": 3,
+        "height": 72,
+        "justifyContent": "center",
+        "width": 72,
+      }
+    }
+  >
+    <View
+      style=""
+    />
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#000",
+        "borderWidth": 3,
+        "height": 72,
+        "justifyContent": "center",
+        "width": 72,
+      }
+    }
+  >
+    <View
+      style=""
+    />
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#000",
+        "borderWidth": 3,
+        "height": 72,
+        "justifyContent": "center",
+        "width": 72,
+      }
+    }
+  >
+    <View
+      style=""
+    />
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#000",
+        "borderWidth": 3,
+        "height": 72,
+        "justifyContent": "center",
+        "width": 72,
+      }
+    }
+  >
+    <View
+      style=""
+    />
+  </View>
+</View>
+`;
