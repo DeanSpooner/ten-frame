@@ -7,12 +7,14 @@ interface TableProps {
 }
 
 const Table: React.FC<TableProps> = ({ counter }) => {
-  const [randomColour, setRandomColour] = useState("red");
-  const lengthOfFrame = 10;
-  const arrayOfCounters = Array.from(Array(lengthOfFrame)).map((e, i) => i + 1);
+  const [randomColour, setRandomColour] = useState<string>("red");
+  const lengthOfFrame: number = 10;
+  const arrayOfCounters: number[] = Array.from(Array(lengthOfFrame)).map(
+    (e, i) => i + 1
+  );
 
   useEffect(() => {
-    const generatedColour = Math.floor(Math.random() * 16777215)
+    const generatedColour: string = Math.floor(Math.random() * 16777215)
       .toString(16)
       .padStart(6, "0");
     setRandomColour(`#${generatedColour}`);

@@ -9,9 +9,9 @@ import TenFrameTouch from "./screens/TenFrameTouch/TenFrameTouch";
 import About from "./screens/About/About";
 import appStyles from "./App.styles";
 
-export default function App() {
-  const [screen, setScreen] = useState("home");
-  const [menuDown, setMenuDown] = useState(false);
+const App: React.FC<{}> = () => {
+  const [screen, setScreen] = useState<string>("home");
+  const [menuDown, setMenuDown] = useState<boolean>(false);
 
   return (
     <LinearGradient colors={["#045d1a", "#11ac56"]} style={appStyles.container}>
@@ -40,4 +40,6 @@ export default function App() {
       <StatusBar style="auto" />
     </LinearGradient>
   );
-}
+};
+
+export default App;

@@ -15,8 +15,10 @@ const TouchTable: React.FC<TouchTableProps> = ({
     []
   );
 
-  const lengthOfFrame = 10;
-  const arrayOfCounters = Array.from(Array(lengthOfFrame)).map((e, i) => i + 1);
+  const lengthOfFrame: number = 10;
+  const arrayOfCounters: number[] = Array.from(Array(lengthOfFrame)).map(
+    (e, i) => i + 1
+  );
 
   const addToArray = (num: number) => {
     setTouchedCountersArray([...touchedCountersArray, num]);

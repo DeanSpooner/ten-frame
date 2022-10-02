@@ -4,7 +4,7 @@ import TouchTable from "../../components/TouchTable/TouchTable";
 import tenFrameTouchStyles from "./TenFrameTouch.styles";
 
 const TenFrameTouch: React.FC<{}> = () => {
-  const [countersTouched, setCountersTouched] = useState(0);
+  const [countersTouched, setCountersTouched] = useState<number>(0);
 
   return (
     <>

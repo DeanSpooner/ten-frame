@@ -102,6 +102,7 @@ Jest will now run the tests and check against snapshots that have been added to 
 | 0.6.4   | 02.10.2022 | About screen added. More screenshots added to README.md.                                                                                                                            |
 | 0.7.0   | 02.10.2022 | Added touchable ten frame. More screenshots added to README.md.                                                                                                                     |
 | 0.8.0   | 02.10.2022 | TypeScript implemented and fixed across all React components.                                                                                                                       |
+| 0.8.1   | 02.10.2022 | Further type declarations and fixes.                                                                                                                                                |
 
 # By [Dean Spooner](https://github.com/DeanSpooner), 2022
 
