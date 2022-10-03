@@ -34,7 +34,7 @@ const App: React.FC<{}> = () => {
           onPress={() => setMenuDown(!menuDown)}
         ></TouchableOpacity>
       )}
-      {screen === "home" && !menuDown && <Home />}
+      {screen === "home" && !menuDown && <Home setScreen={setScreen} />}
       {screen === "tenframe" && !menuDown && <TenFrame />}
       {screen === "tenframetouch" && !menuDown && <TenFrameTouch />}
       {screen === "tenframegame" && !menuDown && <TenFrameGame />}

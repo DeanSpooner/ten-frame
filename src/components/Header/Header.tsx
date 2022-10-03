@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, TouchableOpacity } from "react-native";
+import { screens } from "../../data/screen";
 import HamburgerIcon from "../HamburgerIcon/HamburgerIcon";
 import headerStyles from "./Header.styles";
 
@@ -14,14 +15,6 @@ const Header: React.FC<HeaderProps> = ({
   setMenuDown,
   menuDown,
 }) => {
-  const screens: { name: string; text: string }[] = [
-    { name: "home", text: "Home" },
-    { name: "tenframe", text: "Ten Frame - Input" },
-    { name: "tenframetouch", text: "Ten Frame - Touch" },
-    { name: "tenframegame", text: "Ten Frame - Game" },
-    { name: "about", text: "About" },
-  ];
-
   return (
     <>
       <View

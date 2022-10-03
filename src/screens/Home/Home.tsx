@@ -1,11 +1,33 @@
 import React from "react";
-import { Text } from "react-native";
+import { Text, TouchableOpacity, View } from "react-native";
+import { screens } from "../../data/screen";
 import homeStyles from "./Home.styles";
 
-const Home: React.FC<{}> = () => {
+interface HomeProps {
+  setScreen: React.Dispatch<React.SetStateAction<string>>;
+}
+
+const Home: React.FC<HomeProps> = ({ setScreen }) => {
   return (
     <>
       <Text style={homeStyles.text}>Welcome to the Ten Frame app!</Text>
+      <Text style={[homeStyles.text, { fontStyle: "italic" }]}>
+        Choose a mode to get started:
+      </Text>
+      <View>
+        {screens.map(
+          (screen) =>
+            screen.name !== "home" && (
+              <TouchableOpacity
+                onPress={() => setScreen(screen.name)}
+                style={homeStyles.menuItemContainer}
+                key={screen.name}
+              >
+                <Text style={homeStyles.menuItem}>{screen.text}</Text>
+              </TouchableOpacity>
+            )
+        )}
+      </View>
     </>
   );
 };

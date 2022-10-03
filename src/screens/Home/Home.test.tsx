@@ -4,13 +4,28 @@ import Home from "./Home";
 
 describe("<Home />", () => {
   it("renders correctly", () => {
-    const tree = renderer.create(<Home />).toJSON();
+    const tree = renderer
+      .create(
+        <Home
+          setScreen={function (value: React.SetStateAction<string>): void {
+            throw new Error("Function not implemented.");
+          }}
+        />
+      )
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it("has 1 child ", () => {
-    const tree = renderer.create(<Home />).toJSON() as ReactTestRendererJSON[];
-    //@ts-ignore
-    expect(tree?.children.length).toBe(1);
+  it("contains 3 direct child components ", () => {
+    const tree = renderer
+      .create(
+        <Home
+          setScreen={function (value: React.SetStateAction<string>): void {
+            throw new Error("Function not implemented.");
+          }}
+        />
+      )
+      .toJSON() as ReactTestRendererJSON[];
+    expect(tree?.length).toBe(3);
   });
 });
