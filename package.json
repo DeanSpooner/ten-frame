@@ -1,6 +1,6 @@
 {
   "name": "ten-frame",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "start": "expo start --dev-client",
     "android": "expo run:android",
@@ -15,15 +15,7 @@
     ],
     "transform": {
       "^.+\\.jsx?$": "babel-jest"
-    },
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "**/*.{js,jsx,ts,tsx}",
-      "!**/coverage/**",
-      "!**/node_modules/**",
-      "!**/babel.config.js",
-      "!**/jest.setup.js"
-    ]
+    }
   },
   "dependencies": {
     "expo": "~46.0.13",

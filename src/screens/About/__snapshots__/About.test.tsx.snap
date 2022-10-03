@@ -5,7 +5,7 @@ exports[`<Home /> renders correctly 1`] = `
   <Image
     source={
       {
-        "testUri": "../../../assets/images/tflogo.png",
+        "testUri": "../../../src/assets/images/tflogo.png",
       }
     }
     style={

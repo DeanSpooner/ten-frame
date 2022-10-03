@@ -149,7 +149,8 @@ End screen:
 | 1.0.0   | 02.10.2022 | Game mode completed, with 60 second timer once game starts, and reset button at end. More screenshots added to README.md.                                                           |
 | 1.0.1   | 02.10.2022 | Moved files into src folder.                                                                                                                                                        |
 | 1.0.2   | 02.10.2022 | Optional chaining added to test files to prevent potential null errors.                                                                                                             |
-| 1.0.3   | 02.10.2022 | More TypeScript fixes for tests. Code coverage added.                                                                                                                               |
+| 1.0.3   | 02.10.2022 | More TypeScript fixes for tests.                                                                                                                                                    |
+| 1.0.4   | 02.10.2022 | Updated snapshots.                                                                                                                                                                  |
 
 <div align="center">
 <img src="src/assets/images/tflogo.png" width="150px"></img>
