@@ -1,296 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Table /> renders correctly 1`] = `
-<View
-  style={
-    {
-      "flexDirection": "row",
-      "flexWrap": "wrap",
-      "justifyContent": "center",
-      "maxWidth": 360,
-      "width": "100%",
-    }
-  }
->
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      {
-        "alignItems": "center",
-        "backgroundColor": "#fff",
-        "borderColor": "#000",
-        "borderWidth": 3,
-        "height": 72,
-        "justifyContent": "center",
-        "opacity": 1,
-        "width": 72,
-      }
-    }
-  >
-    <View
-      style=""
-    />
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      {
-        "alignItems": "center",
-        "backgroundColor": "#fff",
-        "borderColor": "#000",
-        "borderWidth": 3,
-        "height": 72,
-        "justifyContent": "center",
-        "opacity": 1,
-        "width": 72,
-      }
-    }
-  >
-    <View
-      style=""
-    />
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      {
-        "alignItems": "center",
-        "backgroundColor": "#fff",
-        "borderColor": "#000",
-        "borderWidth": 3,
-        "height": 72,
-        "justifyContent": "center",
-        "opacity": 1,
-        "width": 72,
-      }
-    }
-  >
-    <View
-      style=""
-    />
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      {
-        "alignItems": "center",
-        "backgroundColor": "#fff",
-        "borderColor": "#000",
-        "borderWidth": 3,
-        "height": 72,
-        "justifyContent": "center",
-        "opacity": 1,
-        "width": 72,
-      }
-    }
-  >
-    <View
-      style=""
-    />
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      {
-        "alignItems": "center",
-        "backgroundColor": "#fff",
-        "borderColor": "#000",
-        "borderWidth": 3,
-        "height": 72,
-        "justifyContent": "center",
-        "opacity": 1,
-        "width": 72,
-      }
-    }
-  >
-    <View
-      style=""
-    />
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      {
-        "alignItems": "center",
-        "backgroundColor": "#fff",
-        "borderColor": "#000",
-        "borderWidth": 3,
-        "height": 72,
-        "justifyContent": "center",
-        "opacity": 1,
-        "width": 72,
-      }
-    }
-  >
-    <View
-      style=""
-    />
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      {
-        "alignItems": "center",
-        "backgroundColor": "#fff",
-        "borderColor": "#000",
-        "borderWidth": 3,
-        "height": 72,
-        "justifyContent": "center",
-        "opacity": 1,
-        "width": 72,
-      }
-    }
-  >
-    <View
-      style=""
-    />
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      {
-        "alignItems": "center",
-        "backgroundColor": "#fff",
-        "borderColor": "#000",
-        "borderWidth": 3,
-        "height": 72,
-        "justifyContent": "center",
-        "opacity": 1,
-        "width": 72,
-      }
-    }
-  >
-    <View
-      style=""
-    />
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      {
-        "alignItems": "center",
-        "backgroundColor": "#fff",
-        "borderColor": "#000",
-        "borderWidth": 3,
-        "height": 72,
-        "justifyContent": "center",
-        "opacity": 1,
-        "width": 72,
-      }
-    }
-  >
-    <View
-      style=""
-    />
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      {
-        "alignItems": "center",
-        "backgroundColor": "#fff",
-        "borderColor": "#000",
-        "borderWidth": 3,
-        "height": 72,
-        "justifyContent": "center",
-        "opacity": 1,
-        "width": 72,
-      }
-    }
-  >
-    <View
-      style=""
-    />
-  </View>
-</View>
+exports[`<TouchTable /> renders correctly 1`] = `
+{
+  "_Scheduler": {
+    "reset": [Function],
+    "unstable_IdlePriority": 5,
+    "unstable_ImmediatePriority": 1,
+    "unstable_LowPriority": 4,
+    "unstable_NormalPriority": 3,
+    "unstable_Profiling": null,
+    "unstable_UserBlockingPriority": 2,
+    "unstable_advanceTime": [Function],
+    "unstable_cancelCallback": [Function],
+    "unstable_clearYields": [Function],
+    "unstable_continueExecution": [Function],
+    "unstable_flushAll": [Function],
+    "unstable_flushAllWithoutAsserting": [Function],
+    "unstable_flushExpired": [Function],
+    "unstable_flushNumberOfYields": [Function],
+    "unstable_flushUntilNextPaint": [Function],
+    "unstable_forceFrameRate": [Function],
+    "unstable_getCurrentPriorityLevel": [Function],
+    "unstable_getFirstCallbackNode": [Function],
+    "unstable_next": [Function],
+    "unstable_now": [Function],
+    "unstable_pauseExecution": [Function],
+    "unstable_requestPaint": [Function],
+    "unstable_runWithPriority": [Function],
+    "unstable_scheduleCallback": [Function],
+    "unstable_setDisableYieldValue": [Function],
+    "unstable_shouldYield": [Function],
+    "unstable_wrapCallback": [Function],
+    "unstable_yieldValue": [Function],
+  },
+  "act": [Function],
+  "create": [Function],
+  "unstable_batchedUpdates": [Function],
+}
 `;
