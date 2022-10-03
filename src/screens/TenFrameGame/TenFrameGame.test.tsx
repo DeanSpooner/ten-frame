@@ -9,7 +9,9 @@ describe("<TenFrameGame />", () => {
   });
 
   it("has 1 child", () => {
-    const tree = renderer.create(<TenFrameGame />).toJSON();
-    expect(tree.children.length).toBe(1);
+    const tree = renderer
+      .create(<TenFrameGame />)
+      .toJSON() as ReactTestRendererJSON[];
+    expect(tree?.children.length).toBe(1);
   });
 });
