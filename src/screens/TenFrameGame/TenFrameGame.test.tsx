@@ -1,5 +1,5 @@
 import React from "react";
-import renderer from "react-test-renderer";
+import renderer, { ReactTestRendererJSON } from "react-test-renderer";
 import TenFrameGame from "./TenFrameGame";
 
 describe("<TenFrameGame />", () => {
@@ -12,6 +12,7 @@ describe("<TenFrameGame />", () => {
     const tree = renderer
       .create(<TenFrameGame />)
       .toJSON() as ReactTestRendererJSON[];
+    //@ts-ignore
     expect(tree?.children.length).toBe(1);
   });
 });

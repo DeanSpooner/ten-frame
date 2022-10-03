@@ -1,5 +1,5 @@
 import React from "react";
-import renderer from "react-test-renderer";
+import renderer, { ReactTestRendererJSON } from "react-test-renderer";
 import Home from "./Home";
 
 describe("<Home />", () => {
@@ -9,7 +9,8 @@ describe("<Home />", () => {
   });
 
   it("has 1 child ", () => {
-    const tree = renderer.create(<Home />).toJSON();
+    const tree = renderer.create(<Home />).toJSON() as ReactTestRendererJSON[];
+    //@ts-ignore
     expect(tree?.children.length).toBe(1);
   });
 });

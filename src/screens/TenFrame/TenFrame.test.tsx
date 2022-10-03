@@ -1,5 +1,5 @@
 import React from "react";
-import renderer from "react-test-renderer";
+import renderer, { ReactTestRendererJSON } from "react-test-renderer";
 import TenFrame from "./TenFrame";
 
 describe("<TenFrame />", () => {
@@ -9,7 +9,9 @@ describe("<TenFrame />", () => {
   });
 
   it("contains 3 direct child components", () => {
-    const tree = renderer.create(<TenFrame />).toJSON();
+    const tree = renderer
+      .create(<TenFrame />)
+      .toJSON() as ReactTestRendererJSON[];
     expect(tree?.length).toBe(3);
   });
 });

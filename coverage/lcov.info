@@ -65,7 +65,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:components/GameTable/GameTable.styles.ts
+SF:src/components/GameTable/GameTable.styles.ts
 FNF:0
 FNH:0
 DA:3,1
@@ -75,7 +75,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:components/GameTable/GameTable.tsx
+SF:src/components/GameTable/GameTable.tsx
 FN:9,(anonymous_0)
 FN:13,(anonymous_1)
 FN:16,(anonymous_2)
@@ -107,7 +107,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:components/HamburgerIcon/HamburgerIcon.styles.ts
+SF:src/components/HamburgerIcon/HamburgerIcon.styles.ts
 FNF:0
 FNH:0
 DA:3,2
@@ -117,7 +117,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:components/HamburgerIcon/HamburgerIcon.tsx
+SF:src/components/HamburgerIcon/HamburgerIcon.tsx
 FN:10,(anonymous_0)
 FN:17,(anonymous_1)
 FNF:2
@@ -137,7 +137,7 @@ BRF:4
 BRH:3
 end_of_record
 TN:
-SF:components/Header/Header.styles.ts
+SF:src/components/Header/Header.styles.ts
 FNF:0
 FNH:0
 DA:3,1
@@ -147,7 +147,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:components/Header/Header.tsx
+SF:src/components/Header/Header.tsx
 FN:12,(anonymous_0)
 FN:36,(anonymous_1)
 FN:38,(anonymous_2)
@@ -174,7 +174,7 @@ BRF:6
 BRH:3
 end_of_record
 TN:
-SF:components/Table/Table.styles.ts
+SF:src/components/Table/Table.styles.ts
 FNF:0
 FNH:0
 DA:3,3
@@ -184,7 +184,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:components/Table/Table.tsx
+SF:src/components/Table/Table.tsx
 FN:9,(anonymous_0)
 FN:13,(anonymous_1)
 FN:16,(anonymous_2)
@@ -213,7 +213,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:components/TouchTable/TouchTable.styles.ts
+SF:src/components/TouchTable/TouchTable.styles.ts
 FNF:0
 FNH:0
 DA:3,2
@@ -223,7 +223,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:components/TouchTable/TouchTable.tsx
+SF:src/components/TouchTable/TouchTable.tsx
 FN:10,(anonymous_0)
 FN:20,(anonymous_1)
 FN:23,(anonymous_2)
@@ -270,7 +270,7 @@ BRF:4
 BRH:1
 end_of_record
 TN:
-SF:screens/About/About.styles.ts
+SF:src/screens/About/About.styles.ts
 FNF:0
 FNH:0
 DA:3,1
@@ -280,7 +280,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens/About/About.tsx
+SF:src/screens/About/About.tsx
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -293,7 +293,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens/Home/Home.styles.ts
+SF:src/screens/Home/Home.styles.ts
 FNF:0
 FNH:0
 DA:3,1
@@ -303,7 +303,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens/Home/Home.tsx
+SF:src/screens/Home/Home.tsx
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -316,7 +316,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens/TenFrame/TenFrame.styles.ts
+SF:src/screens/TenFrame/TenFrame.styles.ts
 FNF:0
 FNH:0
 DA:3,1
@@ -326,7 +326,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens/TenFrame/TenFrame.tsx
+SF:src/screens/TenFrame/TenFrame.tsx
 FN:6,(anonymous_0)
 FN:10,(anonymous_1)
 FN:29,(anonymous_2)
@@ -356,7 +356,7 @@ BRF:7
 BRH:0
 end_of_record
 TN:
-SF:screens/TenFrameGame/TenFrameGame.styles.ts
+SF:src/screens/TenFrameGame/TenFrameGame.styles.ts
 FNF:0
 FNH:0
 DA:3,1
@@ -366,7 +366,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens/TenFrameGame/TenFrameGame.tsx
+SF:src/screens/TenFrameGame/TenFrameGame.tsx
 FN:6,(anonymous_0)
 FN:17,(anonymous_1)
 FN:20,(anonymous_2)
@@ -460,7 +460,7 @@ BRF:19
 BRH:7
 end_of_record
 TN:
-SF:screens/TenFrameTouch/TenFrameTouch.styles.ts
+SF:src/screens/TenFrameTouch/TenFrameTouch.styles.ts
 FNF:0
 FNH:0
 DA:3,1
@@ -470,7 +470,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens/TenFrameTouch/TenFrameTouch.tsx
+SF:src/screens/TenFrameTouch/TenFrameTouch.tsx
 FN:6,(anonymous_0)
 FNF:1
 FNH:1

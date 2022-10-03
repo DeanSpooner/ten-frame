@@ -1,5 +1,5 @@
 import React from "react";
-import renderer from "react-test-renderer";
+import renderer, { ReactTestRendererJSON } from "react-test-renderer";
 import HamburgerIcon from "./HamburgerIcon";
 
 describe("<HamburgerIcon />", () => {
@@ -27,7 +27,8 @@ describe("<HamburgerIcon />", () => {
           menuDown={false}
         />
       )
-      .toJSON();
+      .toJSON() as ReactTestRendererJSON[];
+    //@ts-ignore
     expect(tree?.children.length).toBe(3);
   });
 });

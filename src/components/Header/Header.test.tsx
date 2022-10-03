@@ -1,5 +1,5 @@
 import React from "react";
-import renderer from "react-test-renderer";
+import renderer, { ReactTestRendererJSON } from "react-test-renderer";
 import Header from "./Header";
 
 describe("<Header />", () => {
@@ -33,7 +33,8 @@ describe("<Header />", () => {
           menuDown={false}
         />
       )
-      .toJSON();
+      .toJSON() as ReactTestRendererJSON[];
+    //@ts-ignore
     expect(tree?.children.length).toBe(1);
   });
 });
