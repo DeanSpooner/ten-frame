@@ -56,7 +56,7 @@ const tenFrameGameStyles = StyleSheet.create({
     fontWeight: "bold",
   },
   resetButtonContainer: {
-    backgroundColor: "#f00",
+    backgroundColor: "#ff7964",
     border: "#000",
     borderRadius: 75,
     borderWidth: 3,
@@ -70,7 +70,7 @@ const tenFrameGameStyles = StyleSheet.create({
     textAlign: "center",
   },
   startButtonContainer: {
-    backgroundColor: "#ff0",
+    backgroundColor: "#02d1fc",
     border: "#000",
     borderRadius: 75,
     borderWidth: 3,

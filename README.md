@@ -155,6 +155,7 @@ End screen:
 | 1.1.1   | 03.10.2022 | Data folder added with screens variable. Screens menu buttons added to home screen.                                                                                                 |
 | 1.2.0   | 03.10.2022 | Helper function tests added.                                                                                                                                                        |
 | 1.2.1   | 03.10.2022 | Tests tidied up, removing all repeated declarations of variables or components.                                                                                                     |
+| 1.2.2   | 03.10.2022 | Styling tweaks to game start and reset buttons.                                                                                                                                     |
 
 <div align="center">
 <img src="src/assets/images/tflogo.png" width="150px"></img>
