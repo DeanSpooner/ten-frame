@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { TouchableOpacity, View } from "react-native";
+import { arrayMaker } from "../../helpers/arrayMaker";
 import touchTableStyles from "./TouchTable.styles";
 
 interface TouchTableProps {
@@ -16,9 +17,6 @@ const TouchTable: React.FC<TouchTableProps> = ({
   );
 
   const lengthOfFrame: number = 10;
-  const arrayOfCounters: number[] = Array.from(Array(lengthOfFrame)).map(
-    (e, i) => i + 1
-  );
 
   const addToArray = (num: number) => {
     setTouchedCountersArray([...touchedCountersArray, num]);
@@ -36,7 +34,7 @@ const TouchTable: React.FC<TouchTableProps> = ({
 
   return (
     <View style={touchTableStyles.container}>
-      {arrayOfCounters.map((num) => (
+      {arrayMaker(lengthOfFrame).map((num) => (
         <TouchableOpacity
           style={touchTableStyles.cell}
           key={num}

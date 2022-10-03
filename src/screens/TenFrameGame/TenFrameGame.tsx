@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Text, TouchableOpacity, View } from "react-native";
 import Table from "../../components/Table/Table";
+import { arrayMaker } from "../../helpers/arrayMaker";
 import tenFrameGameStyles from "./TenFrameGame.styles";
 
 const TenFrameGame: React.FC<{}> = () => {
@@ -13,15 +14,12 @@ const TenFrameGame: React.FC<{}> = () => {
   const [wrongAnswer, setWrongAnswer] = useState<boolean>(false);
 
   const lengthOfFrame: number = 10;
-  const arrayOfButtons: number[] = Array.from(Array(lengthOfFrame)).map(
-    (e, i) => i + 1
-  );
 
-  const randomCounters = () => {
+  const randomCounters = (): void => {
     setCounters(Math.floor(Math.random() * 10 + 1));
   };
 
-  const handleAnswer = (num: number) => {
+  const handleAnswer = (num: number): void => {
     if (num === counters) {
       setScore(score + 1);
       setTotal(total + 1);
@@ -94,7 +92,7 @@ const TenFrameGame: React.FC<{}> = () => {
           </Text>
           <Table counter={counters} />
           <View style={tenFrameGameStyles.buttonsContainer}>
-            {arrayOfButtons.map((num) => (
+            {arrayMaker(lengthOfFrame).map((num) => (
               <TouchableOpacity
                 key={num}
                 onPress={() => {

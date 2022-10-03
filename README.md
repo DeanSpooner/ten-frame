@@ -151,6 +151,7 @@ End screen:
 | 1.0.2   | 03.10.2022 | Optional chaining added to test files to prevent potential null errors.                                                                                                             |
 | 1.0.3   | 03.10.2022 | More TypeScript fixes for tests.                                                                                                                                                    |
 | 1.0.4   | 03.10.2022 | Updated snapshots.                                                                                                                                                                  |
+| 1.1.0   | 03.10.2022 | Helper functions implemented to reduce repetition.                                                                                                                                  |
 
 <div align="center">
 <img src="src/assets/images/tflogo.png" width="150px"></img>

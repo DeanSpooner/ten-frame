@@ -39,7 +39,6 @@ const App: React.FC<{}> = () => {
       {screen === "tenframetouch" && !menuDown && <TenFrameTouch />}
       {screen === "tenframegame" && !menuDown && <TenFrameGame />}
       {screen === "about" && !menuDown && <About />}
-
       <StatusBar style="auto" />
     </LinearGradient>
   );

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { View } from "react-native";
+import { randomColourGenerator } from "../../helpers/randomColourGenerator";
+import { arrayMaker } from "../../helpers/arrayMaker";
 import gameTableStyles from "./GameTable.styles";
 
 interface GameTableProps {
@@ -9,22 +11,14 @@ interface GameTableProps {
 const GameTable: React.FC<GameTableProps> = ({ counter }) => {
   const [randomColour, setRandomColour] = useState<string>("red");
   const lengthOfFrame: number = 10;
-  const arrayOfCounters: number[] = Array.from(Array(lengthOfFrame)).map(
-    (e, i) => i + 1
-  );
-
-  useEffect(() => {}, []);
 
   useEffect(() => {
-    const generatedColour: string = Math.floor(Math.random() * 16777215)
-      .toString(16)
-      .padStart(6, "0");
-    setRandomColour(`#${generatedColour}`);
+    setRandomColour(`#${randomColourGenerator()}`);
   }, [counter]);
 
   return (
     <View style={gameTableStyles.container}>
-      {arrayOfCounters.map((num) => (
+      {arrayMaker(lengthOfFrame).map((num) => (
         <View style={gameTableStyles.cell} key={num}>
           <View
             //@ts-ignore
