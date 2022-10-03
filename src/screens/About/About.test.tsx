@@ -10,6 +10,6 @@ describe("<Home />", () => {
 
   it("has 1 child ", () => {
     const tree = renderer.create(<About />).toJSON();
-    expect(tree.length).toBe(3);
+    expect(tree?.length).toBe(3);
   });
 });

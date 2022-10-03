@@ -32,6 +32,6 @@ describe("<Table />", () => {
         />
       )
       .toJSON();
-    expect(tree.children.length).toBe(10);
+    expect(tree?.children.length).toBe(10);
   });
 });

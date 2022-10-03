@@ -10,6 +10,6 @@ describe("<TenFrameTouch />", () => {
 
   it("contains 3 direct child components", () => {
     const tree = renderer.create(<TenFrameTouch />).toJSON();
-    expect(tree.length).toBe(3);
+    expect(tree?.length).toBe(3);
   });
 });

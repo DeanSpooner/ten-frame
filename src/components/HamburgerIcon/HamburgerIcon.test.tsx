@@ -28,6 +28,6 @@ describe("<HamburgerIcon />", () => {
         />
       )
       .toJSON();
-    expect(tree.children.length).toBe(3);
+    expect(tree?.children.length).toBe(3);
   });
 });
