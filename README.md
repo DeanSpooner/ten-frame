@@ -153,6 +153,7 @@ End screen:
 | 1.0.4   | 03.10.2022 | Updated snapshots.                                                                                                                                                                  |
 | 1.1.0   | 03.10.2022 | Helper functions implemented to reduce repetition.                                                                                                                                  |
 | 1.1.1   | 03.10.2022 | Data folder added with screens variable. Screens menu buttons added to home screen.                                                                                                 |
+| 1.2.0   | 03.10.2022 | Helper function tests added.                                                                                                                                                        |
 
 <div align="center">
 <img src="src/assets/images/tflogo.png" width="150px"></img>
