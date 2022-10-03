@@ -14,7 +14,7 @@ exports[`<TenFrameGame /> renders correctly 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     {
-      "backgroundColor": "#ff0",
+      "backgroundColor": "#02d1fc",
       "border": "#000",
       "borderRadius": 75,
       "borderWidth": 3,
