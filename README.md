@@ -2,7 +2,7 @@
 
 # Ten Frame by [Dean Spooner](https://github.com/DeanSpooner)
 
-## [Now available to install on Android as an APK here](https://github.com/DeanSpooner/ten-frame/releases/tag/v1.4.0-beta)!
+## [Now available to install on Android as an APK here](https://github.com/DeanSpooner/ten-frame/releases/tag/v1.4.1-beta)!
 
 <img src="src/assets/images/tflogo.png" width="400px"></img>
 
