@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { TouchableOpacity, View } from "react-native";
 import { arrayMaker } from "../../helpers/arrayMaker";
-import touchTableStyles from "./TouchTable.styles";
+import globalStyles from "../../../Global.styles";
 
 interface TouchTableProps {
   countersTouched: number;
@@ -33,10 +33,10 @@ const TouchTable: React.FC<TouchTableProps> = ({
   };
 
   return (
-    <View style={touchTableStyles.container}>
+    <View style={globalStyles.tenFrameContainer}>
       {arrayMaker(lengthOfFrame).map((num) => (
         <TouchableOpacity
-          style={touchTableStyles.cell}
+          style={globalStyles.cell}
           key={num}
           onPress={() => {
             if (touchedCountersArray.includes(num)) {
@@ -49,9 +49,7 @@ const TouchTable: React.FC<TouchTableProps> = ({
           <View
             //@ts-ignore
             style={
-              touchedCountersArray.includes(num)
-                ? [touchTableStyles.counter]
-                : ""
+              touchedCountersArray.includes(num) ? [globalStyles.counter] : ""
             }
           ></View>
         </TouchableOpacity>

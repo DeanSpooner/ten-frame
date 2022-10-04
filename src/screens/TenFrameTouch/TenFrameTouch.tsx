@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Text } from "react-native";
+import { Text, View } from "react-native";
+import globalStyles from "../../../Global.styles";
 import TouchTable from "../../components/TouchTable/TouchTable";
 import tenFrameTouchStyles from "./TenFrameTouch.styles";
 
@@ -7,8 +8,8 @@ const TenFrameTouch: React.FC<{}> = () => {
   const [countersTouched, setCountersTouched] = useState<number>(0);
 
   return (
-    <>
-      <Text style={tenFrameTouchStyles.text}>
+    <View style={globalStyles.screenContainer}>
+      <Text style={globalStyles.text}>
         Touch the ten frame to add counters to it.
       </Text>
       <TouchTable
@@ -16,7 +17,7 @@ const TenFrameTouch: React.FC<{}> = () => {
         setCountersTouched={setCountersTouched}
       />
       <Text style={tenFrameTouchStyles.amount}>{countersTouched}</Text>
-    </>
+    </View>
   );
 };
 

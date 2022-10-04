@@ -7,7 +7,6 @@ exports[`<GameTable /> renders correctly 1`] = `
       "flexDirection": "row",
       "flexWrap": "wrap",
       "justifyContent": "center",
-      "maxWidth": 360,
       "width": "100%",
     }
   }
@@ -19,9 +18,9 @@ exports[`<GameTable /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 72,
+        "height": 142.5,
         "justifyContent": "center",
-        "width": 72,
+        "width": "19%",
       }
     }
   >
@@ -36,9 +35,9 @@ exports[`<GameTable /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 72,
+        "height": 142.5,
         "justifyContent": "center",
-        "width": 72,
+        "width": "19%",
       }
     }
   >
@@ -53,9 +52,9 @@ exports[`<GameTable /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 72,
+        "height": 142.5,
         "justifyContent": "center",
-        "width": 72,
+        "width": "19%",
       }
     }
   >
@@ -70,9 +69,9 @@ exports[`<GameTable /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 72,
+        "height": 142.5,
         "justifyContent": "center",
-        "width": 72,
+        "width": "19%",
       }
     }
   >
@@ -87,9 +86,9 @@ exports[`<GameTable /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 72,
+        "height": 142.5,
         "justifyContent": "center",
-        "width": 72,
+        "width": "19%",
       }
     }
   >
@@ -104,9 +103,9 @@ exports[`<GameTable /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 72,
+        "height": 142.5,
         "justifyContent": "center",
-        "width": 72,
+        "width": "19%",
       }
     }
   >
@@ -121,9 +120,9 @@ exports[`<GameTable /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 72,
+        "height": 142.5,
         "justifyContent": "center",
-        "width": 72,
+        "width": "19%",
       }
     }
   >
@@ -138,9 +137,9 @@ exports[`<GameTable /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 72,
+        "height": 142.5,
         "justifyContent": "center",
-        "width": 72,
+        "width": "19%",
       }
     }
   >
@@ -155,9 +154,9 @@ exports[`<GameTable /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 72,
+        "height": 142.5,
         "justifyContent": "center",
-        "width": 72,
+        "width": "19%",
       }
     }
   >
@@ -172,9 +171,9 @@ exports[`<GameTable /> renders correctly 1`] = `
         "backgroundColor": "#fff",
         "borderColor": "#000",
         "borderWidth": 3,
-        "height": 72,
+        "height": 142.5,
         "justifyContent": "center",
-        "width": 72,
+        "width": "19%",
       }
     }
   >

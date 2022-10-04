@@ -2,7 +2,7 @@
 
 # Ten Frame by [Dean Spooner](https://github.com/DeanSpooner)
 
-## [Now available to install on Android as an APK here](https://github.com/DeanSpooner/ten-frame/releases/tag/v1.3.0-beta)!
+## [Now available to install on Android as an APK here](https://github.com/DeanSpooner/ten-frame/releases/tag/v1.4.0-beta)!
 
 <img src="src/assets/images/tflogo.png" width="400px"></img>
 
@@ -19,8 +19,8 @@ Welcome to the Ten Frame repository by Dean Spooner. The aim of this project is 
 - [x] Different screens selectable from Hamburger menu;
 - [x] Touchable ten-frame that will show the amount of counters put down;
 - [x] Game to match number of counters with an amount in a certain time;
-- [ ] Saving a high-score;
-- [ ] Scaled-up for tablets.
+- [x] Scaled-up for tablets.
+- [ ] Saving a high-score.
 
 ## Built with:
 
@@ -139,6 +139,8 @@ In game:
 
 <img src="src/assets/images/androidgame.png" width="400px"></img>
 
+<img src="src/assets/images/ipadgame.png" width="400px"></img>
+
 End screen:
 
 <img src="src/assets/images/iphoneend.png" width="400px"></img>
@@ -193,6 +195,7 @@ End screen:
 | 1.2.1   | 03.10.2022 | Tests tidied up, removing all repeated declarations of variables or components.                                                                                                     |
 | 1.2.2   | 03.10.2022 | Styling tweaks to game start and reset buttons.                                                                                                                                     |
 | 1.3.0   | 04.10.2022 | Added eas.json configured for APK builds. Added build instructions for APK, ABB and iOS. APK v1.3.0-beta added to GitHub release.                                                   |
+| 1.4.0   | 04.10.2022 | Scalable fonts, ten frames and counters for different device sizes, including tablets. Globally shared styles implemented to reduce repetition.                                     |
 
 <div align="center">
 <img src="src/assets/images/tflogo.png" width="150px"></img>

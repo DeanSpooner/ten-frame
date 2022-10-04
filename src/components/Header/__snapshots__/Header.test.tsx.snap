@@ -97,7 +97,7 @@ exports[`<Header /> renders correctly 1`] = `
       style={
         {
           "color": "#fff",
-          "fontSize": 40,
+          "fontSize": 62.5,
           "textAlign": "center",
         }
       }

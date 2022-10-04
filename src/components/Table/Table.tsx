@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { View } from "react-native";
 import { randomColourGenerator } from "../../helpers/randomColourGenerator";
 import { arrayMaker } from "../../helpers/arrayMaker";
-import tableStyles from "./Table.styles";
+import globalStyles from "../../../Global.styles";
 
 interface TableProps {
   counter: number;
@@ -17,15 +17,15 @@ const Table: React.FC<TableProps> = ({ counter }) => {
   }, [counter]);
 
   return (
-    <View style={tableStyles.container}>
+    <View style={globalStyles.tenFrameContainer}>
       {arrayMaker(lengthOfFrame).map((num) => (
-        <View style={tableStyles.cell} key={num}>
+        <View style={globalStyles.cell} key={num}>
           <View
             //@ts-ignore
             style={
               counter < num
                 ? ""
-                : [tableStyles.counter, { backgroundColor: randomColour }]
+                : [globalStyles.counter, { backgroundColor: randomColour }]
             }
           ></View>
         </View>

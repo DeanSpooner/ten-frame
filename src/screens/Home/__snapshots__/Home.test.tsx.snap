@@ -6,8 +6,8 @@ exports[`<Home /> renders correctly 1`] = `
     style={
       {
         "color": "#fff",
-        "fontSize": 30,
-        "marginTop": 10,
+        "fontSize": 41.666666666666664,
+        "margin": 15,
         "textAlign": "center",
       }
     }
@@ -19,8 +19,8 @@ exports[`<Home /> renders correctly 1`] = `
       [
         {
           "color": "#fff",
-          "fontSize": 30,
-          "marginTop": 10,
+          "fontSize": 41.666666666666664,
+          "margin": 15,
           "textAlign": "center",
         },
         {
@@ -60,7 +60,7 @@ exports[`<Home /> renders correctly 1`] = `
           {
             "borderRadius": 12,
             "color": "#fff",
-            "fontSize": 30,
+            "fontSize": 41.666666666666664,
             "justifyContent": "center",
             "padding": 16,
             "textAlign": "center",
@@ -98,7 +98,7 @@ exports[`<Home /> renders correctly 1`] = `
           {
             "borderRadius": 12,
             "color": "#fff",
-            "fontSize": 30,
+            "fontSize": 41.666666666666664,
             "justifyContent": "center",
             "padding": 16,
             "textAlign": "center",
@@ -136,7 +136,7 @@ exports[`<Home /> renders correctly 1`] = `
           {
             "borderRadius": 12,
             "color": "#fff",
-            "fontSize": 30,
+            "fontSize": 41.666666666666664,
             "justifyContent": "center",
             "padding": 16,
             "textAlign": "center",
@@ -174,7 +174,7 @@ exports[`<Home /> renders correctly 1`] = `
           {
             "borderRadius": 12,
             "color": "#fff",
-            "fontSize": 30,
+            "fontSize": 41.666666666666664,
             "justifyContent": "center",
             "padding": 16,
             "textAlign": "center",

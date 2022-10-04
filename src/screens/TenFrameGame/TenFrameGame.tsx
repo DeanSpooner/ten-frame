@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Text, TouchableOpacity, View } from "react-native";
+import globalStyles from "../../../Global.styles";
 import Table from "../../components/Table/Table";
 import { arrayMaker } from "../../helpers/arrayMaker";
 import tenFrameGameStyles from "./TenFrameGame.styles";
@@ -53,7 +54,7 @@ const TenFrameGame: React.FC<{}> = () => {
   }, [gameStarted, time]);
 
   return (
-    <>
+    <View style={globalStyles.screenContainer}>
       {!gameStarted && time !== 0 && (
         <TouchableOpacity
           onPress={() => setGameStarted(true)}
@@ -64,7 +65,7 @@ const TenFrameGame: React.FC<{}> = () => {
       )}
       {gameStarted && time === 0 && (
         <>
-          <Text style={tenFrameGameStyles.text}>Great try! You scored </Text>
+          <Text style={globalStyles.text}>Great try! You scored </Text>
           <Text style={tenFrameGameStyles.score}>
             {score} out of {total}!
           </Text>
@@ -87,9 +88,7 @@ const TenFrameGame: React.FC<{}> = () => {
           <Text style={tenFrameGameStyles.score}>
             Score: {score} out of {total}
           </Text>
-          <Text style={tenFrameGameStyles.text}>
-            How many counters are there?
-          </Text>
+          <Text style={globalStyles.text}>How many counters are there?</Text>
           <Table counter={counters} />
           <View style={tenFrameGameStyles.buttonsContainer}>
             {arrayMaker(lengthOfFrame).map((num) => (
@@ -114,9 +113,14 @@ const TenFrameGame: React.FC<{}> = () => {
               Try again!
             </Text>
           )}
+          {!wrongAnswer && !correctAnswer && (
+            <Text style={[tenFrameGameStyles.answerMessage, { color: "#900" }]}>
+              {" "}
+            </Text>
+          )}
         </>
       )}
-    </>
+    </View>
   );
 };
 

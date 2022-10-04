@@ -12,6 +12,7 @@ describe("<TenFrameTouch />", () => {
   });
 
   it("contains 3 direct child components", () => {
-    expect(tree?.length).toBe(3);
+    //@ts-ignore
+    expect(tree?.children.length).toBe(3);
   });
 });

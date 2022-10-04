@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Text, View, TextInput } from "react-native";
 import Table from "../../components/Table/Table";
 import tenFrameStyles from "./TenFrame.styles";
+import globalStyles from "../../../Global.styles";
 
 const TenFrame: React.FC<{}> = () => {
   const [counters, setCounters] = useState<number>(0);
@@ -21,8 +22,8 @@ const TenFrame: React.FC<{}> = () => {
   };
 
   return (
-    <>
-      <Text style={tenFrameStyles.text}>How many counters will you place?</Text>
+    <View style={globalStyles.screenContainer}>
+      <Text style={globalStyles.text}>How many counters will you place?</Text>
       <View style={tenFrameStyles.inputContainer}>
         <TextInput
           style={tenFrameStyles.textInput}
@@ -36,7 +37,7 @@ const TenFrame: React.FC<{}> = () => {
         ></TextInput>
       </View>
       <Table counter={counters} />
-    </>
+    </View>
   );
 };
 

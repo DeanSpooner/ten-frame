@@ -1,12 +1,6 @@
-import { StyleSheet } from "react-native";
+import { Dimensions, StyleSheet } from "react-native";
 
 const homeStyles = StyleSheet.create({
-  text: {
-    color: "#fff",
-    fontSize: 30,
-    textAlign: "center",
-    marginTop: 10,
-  },
   menuItemContainer: {
     zIndex: 102,
     elevation: 102,
@@ -19,7 +13,7 @@ const homeStyles = StyleSheet.create({
     borderRadius: 12,
     color: "#fff",
     padding: 16,
-    fontSize: 30,
+    fontSize: Dimensions.get("window").width / 18,
     textAlign: "center",
     justifyContent: "center",
   },

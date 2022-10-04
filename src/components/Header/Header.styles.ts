@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { Dimensions, StyleSheet } from "react-native";
 
 const headerStyles = StyleSheet.create({
   outerContainer: {
@@ -26,7 +26,7 @@ const headerStyles = StyleSheet.create({
   },
   title: {
     color: "#fff",
-    fontSize: 40,
+    fontSize: Dimensions.get("window").width / 12,
     textAlign: "center",
   },
   menuItemContainer: {

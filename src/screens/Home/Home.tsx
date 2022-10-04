@@ -1,5 +1,6 @@
 import React from "react";
 import { Text, TouchableOpacity, View } from "react-native";
+import globalStyles from "../../../Global.styles";
 import { screens } from "../../data/screen";
 import homeStyles from "./Home.styles";
 
@@ -10,8 +11,8 @@ interface HomeProps {
 const Home: React.FC<HomeProps> = ({ setScreen }) => {
   return (
     <>
-      <Text style={homeStyles.text}>Welcome to the Ten Frame app!</Text>
-      <Text style={[homeStyles.text, { fontStyle: "italic" }]}>
+      <Text style={globalStyles.text}>Welcome to the Ten Frame app!</Text>
+      <Text style={[globalStyles.text, { fontStyle: "italic" }]}>
         Choose a mode to get started:
       </Text>
       <View>

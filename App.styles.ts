@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { Dimensions, StyleSheet } from "react-native";
 
 const appStyles = StyleSheet.create({
   container: {
@@ -6,6 +6,11 @@ const appStyles = StyleSheet.create({
     background: "#045d1a",
     alignItems: "center",
     justifyContent: "center",
+  },
+  screenContainer: {
+    position: "absolute",
+    top: 100,
+    height: Dimensions.get("window").height - 100,
   },
 });
 

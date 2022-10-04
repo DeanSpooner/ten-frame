@@ -1,19 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<TenFrame /> renders correctly 1`] = `
-[
+<View
+  style={
+    {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "marginTop": 20,
+      "minHeight": 1234,
+    }
+  }
+>
   <Text
     style={
       {
         "color": "#fff",
-        "fontSize": 24,
-        "marginHorizontal": 5,
+        "fontSize": 41.666666666666664,
+        "margin": 15,
         "textAlign": "center",
       }
     }
   >
     How many counters will you place?
-  </Text>,
+  </Text>
   <View
     style={
       {
@@ -45,14 +54,13 @@ exports[`<TenFrame /> renders correctly 1`] = `
       }
       value={0}
     />
-  </View>,
+  </View>
   <View
     style={
       {
         "flexDirection": "row",
         "flexWrap": "wrap",
         "justifyContent": "center",
-        "maxWidth": 360,
         "width": "100%",
       }
     }
@@ -64,9 +72,9 @@ exports[`<TenFrame /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 72,
+          "height": 142.5,
           "justifyContent": "center",
-          "width": 72,
+          "width": "19%",
         }
       }
     >
@@ -81,9 +89,9 @@ exports[`<TenFrame /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 72,
+          "height": 142.5,
           "justifyContent": "center",
-          "width": 72,
+          "width": "19%",
         }
       }
     >
@@ -98,9 +106,9 @@ exports[`<TenFrame /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 72,
+          "height": 142.5,
           "justifyContent": "center",
-          "width": 72,
+          "width": "19%",
         }
       }
     >
@@ -115,9 +123,9 @@ exports[`<TenFrame /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 72,
+          "height": 142.5,
           "justifyContent": "center",
-          "width": 72,
+          "width": "19%",
         }
       }
     >
@@ -132,9 +140,9 @@ exports[`<TenFrame /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 72,
+          "height": 142.5,
           "justifyContent": "center",
-          "width": 72,
+          "width": "19%",
         }
       }
     >
@@ -149,9 +157,9 @@ exports[`<TenFrame /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 72,
+          "height": 142.5,
           "justifyContent": "center",
-          "width": 72,
+          "width": "19%",
         }
       }
     >
@@ -166,9 +174,9 @@ exports[`<TenFrame /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 72,
+          "height": 142.5,
           "justifyContent": "center",
-          "width": 72,
+          "width": "19%",
         }
       }
     >
@@ -183,9 +191,9 @@ exports[`<TenFrame /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 72,
+          "height": 142.5,
           "justifyContent": "center",
-          "width": 72,
+          "width": "19%",
         }
       }
     >
@@ -200,9 +208,9 @@ exports[`<TenFrame /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 72,
+          "height": 142.5,
           "justifyContent": "center",
-          "width": 72,
+          "width": "19%",
         }
       }
     >
@@ -217,9 +225,9 @@ exports[`<TenFrame /> renders correctly 1`] = `
           "backgroundColor": "#fff",
           "borderColor": "#000",
           "borderWidth": 3,
-          "height": 72,
+          "height": 142.5,
           "justifyContent": "center",
-          "width": 72,
+          "width": "19%",
         }
       }
     >
@@ -227,6 +235,6 @@ exports[`<TenFrame /> renders correctly 1`] = `
         style=""
       />
     </View>
-  </View>,
-]
+  </View>
+</View>
 `;

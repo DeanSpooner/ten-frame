@@ -2,39 +2,50 @@
 
 exports[`<TenFrameGame /> renders correctly 1`] = `
 <View
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onClick={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
   style={
     {
-      "backgroundColor": "#02d1fc",
-      "border": "#000",
-      "borderRadius": 75,
-      "borderWidth": 3,
-      "height": 150,
+      "alignItems": "center",
       "justifyContent": "center",
-      "opacity": 1,
-      "width": 150,
+      "marginTop": 20,
+      "minHeight": 1234,
     }
   }
 >
-  <Text
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       {
-        "color": "#000",
-        "fontSize": 30,
-        "textAlign": "center",
+        "backgroundColor": "#02d1fc",
+        "border": "#000",
+        "borderRadius": 500,
+        "borderWidth": 3,
+        "height": 375,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": 375,
       }
     }
   >
-    Start game!
-  </Text>
+    <Text
+      style={
+        {
+          "color": "#000",
+          "fontSize": 62.5,
+          "textAlign": "center",
+        }
+      }
+    >
+      Start game!
+    </Text>
+  </View>
 </View>
 `;

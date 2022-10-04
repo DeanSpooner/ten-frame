@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TouchableOpacity } from "react-native";
+import { ScrollView, TouchableOpacity, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { LinearGradient } from "expo-linear-gradient";
 import Header from "./src/components/Header/Header";
@@ -34,11 +34,13 @@ const App: React.FC<{}> = () => {
           onPress={() => setMenuDown(!menuDown)}
         ></TouchableOpacity>
       )}
-      {screen === "home" && !menuDown && <Home setScreen={setScreen} />}
-      {screen === "tenframe" && !menuDown && <TenFrame />}
-      {screen === "tenframetouch" && !menuDown && <TenFrameTouch />}
-      {screen === "tenframegame" && !menuDown && <TenFrameGame />}
-      {screen === "about" && !menuDown && <About />}
+      <ScrollView style={appStyles.screenContainer}>
+        {screen === "home" && !menuDown && <Home setScreen={setScreen} />}
+        {screen === "tenframe" && !menuDown && <TenFrame />}
+        {screen === "tenframetouch" && !menuDown && <TenFrameTouch />}
+        {screen === "tenframegame" && !menuDown && <TenFrameGame />}
+        {screen === "about" && !menuDown && <About />}
+      </ScrollView>
       <StatusBar style="auto" />
     </LinearGradient>
   );

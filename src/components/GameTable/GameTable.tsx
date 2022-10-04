@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { View } from "react-native";
 import { randomColourGenerator } from "../../helpers/randomColourGenerator";
 import { arrayMaker } from "../../helpers/arrayMaker";
-import gameTableStyles from "./GameTable.styles";
+import globalStyles from "../../../Global.styles";
 
 interface GameTableProps {
   counter: number;
@@ -17,15 +17,15 @@ const GameTable: React.FC<GameTableProps> = ({ counter }) => {
   }, [counter]);
 
   return (
-    <View style={gameTableStyles.container}>
+    <View style={globalStyles.tenFrameContainer}>
       {arrayMaker(lengthOfFrame).map((num) => (
-        <View style={gameTableStyles.cell} key={num}>
+        <View style={globalStyles.cell} key={num}>
           <View
             //@ts-ignore
             style={
               counter < num
                 ? ""
-                : [gameTableStyles.counter, { backgroundColor: randomColour }]
+                : [globalStyles.counter, { backgroundColor: randomColour }]
             }
           ></View>
         </View>
