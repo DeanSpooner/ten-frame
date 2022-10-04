@@ -2,6 +2,8 @@
 
 # Ten Frame by [Dean Spooner](https://github.com/DeanSpooner)
 
+## [Now available to install on Android as an APK here](https://github.com/DeanSpooner/ten-frame/releases/tag/v1.3.0-beta)!
+
 <img src="src/assets/images/tflogo.png" width="400px"></img>
 
 </div>
@@ -44,6 +46,40 @@ In your terminal, cd into `ten-frame`:
 - NOTE: You may need your Android simulator running prior to selecting it in the CLI; it may need to be configured to have more storage space within its settings on Android Studio.
 
   <img src="src/assets/images/terminal.png" width="400px"></img>
+
+## Running builds:
+
+To create builds, please follow the instructions on the [Expo website here](https://docs.expo.dev/build/setup/).
+
+### Building Android APK builds:
+
+This project is currently set up to create APK builds for testing on Android devices and emulators. To build an APK package, in your terminal cd into `ten-frame`:
+
+- `npm install -g eas-cli` (unless you have previously ran this command)
+- [Create an Expo account here](https://expo.dev/) (unless you already have an account)
+- `eas login`
+- Login to your Expo account;
+- `eas build -p android --profile preview`
+- You may be asked "Generate a new Android Keystore?" Select "yes".
+
+The package should now be built by Expo, and will take a few minutes to complete. A URL to your APK will show when complete, which you can click to download. Your APK package will also be stored within your Expo account on the website to retrieve later.
+
+### Building Android Play Store builds:
+
+Expo can also create builds for publishing to the Android Play Store. To build an AAB package, in your terminal cd into `ten-frame`:
+
+- `npm install -g eas-cli` (unless you have previously ran this command)
+- [Create an Expo account here](https://expo.dev/) (unless you already have an account)
+- `eas login`
+- Login to your Expo account;
+- `eas build -p android --profile preview`
+- You may be asked "Generate a new Android Keystore?" Select "yes".
+
+The package should now be built by Expo, and will take a few minutes to complete. A URL to your AAB will show when complete, which you can click to download. Your AAB package will also be stored within your Expo account on the website to retrieve later.
+
+### Building iOS builds:
+
+Expo can also create builds for iOS devices; however, these require an [Apple Developer account](https://developer.apple.com/). Please follow the steps on the [Expo Build documentation](https://docs.expo.dev/build/setup/) to create these builds.
 
 ## Running tests:
 
@@ -156,6 +192,7 @@ End screen:
 | 1.2.0   | 03.10.2022 | Helper function tests added.                                                                                                                                                        |
 | 1.2.1   | 03.10.2022 | Tests tidied up, removing all repeated declarations of variables or components.                                                                                                     |
 | 1.2.2   | 03.10.2022 | Styling tweaks to game start and reset buttons.                                                                                                                                     |
+| 1.3.0   | 04.10.2022 | Added eas.json configured for APK builds. Added build instructions for APK, ABB and iOS. APK v1.3.0-beta added to GitHub release.                                                   |
 
 <div align="center">
 <img src="src/assets/images/tflogo.png" width="150px"></img>
