@@ -19,7 +19,7 @@ Welcome to the Ten Frame repository by Dean Spooner. The aim of this project is 
 - [x] Different screens selectable from Hamburger menu;
 - [x] Touchable ten-frame that will show the amount of counters put down;
 - [x] Game to match number of counters with an amount in a certain time;
-- [x] Scaled-up for tablets.
+- [x] Scaled-up for tablets;
 - [ ] Saving a high-score.
 
 ## Built with:
@@ -55,8 +55,8 @@ To create builds, please follow the instructions on the [Expo website here](http
 
 This project is currently set up to create APK builds for testing on Android devices and emulators. To build an APK package, in your terminal cd into `ten-frame`:
 
-- `npm install -g eas-cli` (unless you have previously ran this command)
-- [Create an Expo account here](https://expo.dev/) (unless you already have an account)
+- `npm install -g eas-cli` (unless you have previously ran this command);
+- [Create an Expo account here](https://expo.dev/) (unless you already have an account);
 - `eas login`
 - Login to your Expo account;
 - `eas build -p android --profile preview`
@@ -68,8 +68,8 @@ The package should now be built by Expo, and will take a few minutes to complete
 
 Expo can also create builds for publishing to the Android Play Store. To build an AAB package, in your terminal cd into `ten-frame`:
 
-- `npm install -g eas-cli` (unless you have previously ran this command)
-- [Create an Expo account here](https://expo.dev/) (unless you already have an account)
+- `npm install -g eas-cli` (unless you have previously ran this command);
+- [Create an Expo account here](https://expo.dev/) (unless you already have an account);
 - `eas login`
 - Login to your Expo account;
 - `eas build -p android --profile preview`
@@ -85,7 +85,7 @@ Expo can also create builds for iOS devices; however, these require an [Apple De
 
 In your terminal, cd into `ten-frame` then run:
 
-- `npm install` (if not ran before)
+- `npm install` (if not ran before);
 - `npm run test`
 
 Jest will now run the tests and check against snapshots that have been added to this project.
@@ -94,7 +94,7 @@ Jest will now run the tests and check against snapshots that have been added to 
 
 In your terminal, cd into `ten-frame` then run:
 
-- `npm install typescript -g`(if you don't have already TypeScript installed on your machine)
+- `npm install typescript -g`(if you don't have already TypeScript installed on your machine);
 - `tsc`
 
 ## Modes:
