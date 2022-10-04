@@ -7,6 +7,12 @@ const globalStyles = StyleSheet.create({
     justifyContent: "center",
     minHeight: Dimensions.get("window").height - 100,
   },
+  text: {
+    color: "#fff",
+    fontSize: Dimensions.get("window").width / 18,
+    textAlign: "center",
+    margin: 15,
+  },
   tenFrameContainer: {
     width: "100%",
     flexDirection: "row",
@@ -30,12 +36,6 @@ const globalStyles = StyleSheet.create({
     borderWidth: 3,
     borderRadius: 100,
     overflow: "hidden",
-  },
-  text: {
-    color: "#fff",
-    fontSize: Dimensions.get("window").width / 18,
-    textAlign: "center",
-    margin: 15,
   },
 });
 

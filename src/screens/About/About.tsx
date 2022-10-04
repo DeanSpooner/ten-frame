@@ -1,7 +1,6 @@
 import React from "react";
 import { Image, Text, View } from "react-native";
 import globalStyles from "../../../Global.styles";
-import aboutStyles from "./About.styles";
 
 const About: React.FC<{}> = () => {
   return (

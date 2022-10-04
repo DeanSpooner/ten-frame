@@ -196,6 +196,7 @@ End screen:
 | 1.2.2   | 03.10.2022 | Styling tweaks to game start and reset buttons.                                                                                                                                     |
 | 1.3.0   | 04.10.2022 | Added eas.json configured for APK builds. Added build instructions for APK, ABB and iOS. APK v1.3.0-beta added to GitHub release.                                                   |
 | 1.4.0   | 04.10.2022 | Scalable fonts, ten frames and counters for different device sizes, including tablets. Globally shared styles implemented to reduce repetition.                                     |
+| 1.4.1   | 04.10.2022 | More styles tidy-up.                                                                                                                                                                |
 
 <div align="center">
 <img src="src/assets/images/tflogo.png" width="150px"></img>

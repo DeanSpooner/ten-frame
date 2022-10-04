@@ -1,16 +1,6 @@
 import { StyleSheet } from "react-native";
 
 const tenFrameStyles = StyleSheet.create({
-  cell: {
-    width: "100px",
-    height: "100px",
-  },
-  text: {
-    color: "#fff",
-    fontSize: 24,
-    textAlign: "center",
-    marginHorizontal: 5,
-  },
   textInput: {
     height: 60,
     margin: 12,
