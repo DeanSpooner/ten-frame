@@ -72,7 +72,7 @@ Expo can also create builds for publishing to the Android Play Store. To build a
 - [Create an Expo account here](https://expo.dev/) (unless you already have an account);
 - `eas login`
 - Login to your Expo account;
-- `eas build -p android --profile preview`
+- `eas build --platform android`
 - You may be asked "Generate a new Android Keystore?" Select "yes".
 
 The package should now be built by Expo, and will take a few minutes to complete. A URL to your AAB will show when complete, which you can click to download. Your AAB package will also be stored within your Expo account on the website to retrieve later.
@@ -196,7 +196,7 @@ End screen:
 | 1.2.2   | 03.10.2022 | Styling tweaks to game start and reset buttons.                                                                                                                                     |
 | 1.3.0   | 04.10.2022 | Added eas.json configured for APK builds. Added build instructions for APK, ABB and iOS. APK v1.3.0-beta added to GitHub release.                                                   |
 | 1.4.0   | 04.10.2022 | Scalable fonts, ten frames and counters for different device sizes, including tablets. Globally shared styles implemented to reduce repetition.                                     |
-| 1.4.1   | 04.10.2022 | More styles tidy-up.                                                                                                                                                                |
+| 1.4.1   | 04.10.2022 | More styles tidy-up. APK v1.4.1-beta added to GitHub release.                                                                                                                       |
 
 <div align="center">
 <img src="src/assets/images/tflogo.png" width="150px"></img>
